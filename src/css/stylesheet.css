@@ -7,6 +7,11 @@
     font-family: 'Quicksand', monospace;
 }
 
+.container_inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 img.desaturate {
     filter: grayscale(100%);
 }
