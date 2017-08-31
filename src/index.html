@@ -6,30 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- SEO -->
-    <meta property="og:locale" content="de_DE"/>
-    <meta property="og:url" content="https://hackundsoehne.de"/>
-    <meta property="og:type" content="business.business"/>
-    <meta property="og:title" content="Hack & Söhne"/>
-    <meta property="og:description"
-          content="We have a passion for technology and work hard to make the latest advancements accessible through hackathons, tech-talks and bootcamps.">
-    <meta property="og:image" content="https://hackundsoehne.de/img/cover.png"/>
-    <meta name="author" content="Hack & Söhne">
-    <meta name="description"
-          content="We have a passion for technology and work hard to make the latest advancements accessible through hackathons, tech-talks and bootcamps.">
-    <meta name="keywords"
-          content="hack, und, söhne, soehne, hackathon, karlsruhe, ideen, ideathon, programmieren, event, coding, code">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:url" content="https://hackundsoehne.de">
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Hack &amp; Söhne">
+    <meta property="og:description" content="We have a passion for technology and work hard to make the latest advancements accessible through hackathons, tech-talks and bootcamps.">
+    <meta property="og:image" content="https://hackundsoehne.de/img/cover.png">
+    <meta name="author" content="Hack &amp; Söhne">
+    <meta name="description" content="We have a passion for technology and work hard to make the latest advancements accessible through hackathons, tech-talks and bootcamps.">
+    <meta name="keywords" content="hack, und, söhne, soehne, hackathon, karlsruhe, ideen, ideathon, programmieren, event, coding, code">
 
     <!-- Favicons -->
     <meta name="theme-color" content="#A63324">
 
-    <title>Hack & Söhne</title>
+    <title>Hack &amp; Söhne</title>
 
     <!-- ALL CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Round" rel="stylesheet">
 
     <!-- TACHYONS -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
@@ -38,41 +38,58 @@
 
 </head>
 <body>
-    <div class="center pa4 pt5" style="width: 600px">
-        <img src="img/logo.png" style="width: 600px">
+<div id="main" class="section valign-wrapper white">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l4 pull-m6" id="infocol">
+                <img alt="" class="responsive-img" id="ethname" src="img/logo.png">
+                <h5 class="f3">24 - 25 APRIL 2018</h5>
+                <p>
+                    Mit rund 200 Teilnehmern wird der OpenCodes Hackathon der größte studentische Hackathon in Deutschland und damit auch eine der größten Veranstaltungen dieser Art in ganz Europa.
+                </p>
+
+                <div class="row hide-on-med-and-down" style="padding-top:40px;">
+                    <div class="col l12">
+                        <a target="_blank" href="https://facebook.com/ETHWaterloo/" style="color:#000"><i class="icon-facebook" style="color:#000; padding-right:80px;"></i></a>
+                        <a target="_blank" href="https://twitter.com/EthWaterloo" style="color:#000"><i class="icon-twitter" style="color:#000; padding-right:80px;"></i></a>
+                        <a target="_blank" href="mailto:info@ethwaterloo.com" style="color:#000"><i class="icon-mail" style="color:#000"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col s12 l4" style="width: 66.666%">
+                <h1>Welcome to the largest student run hackathon in Germany!</h1>
+                What makes us unique?
+            </div>
+        </div>
+
+
+        <div class="row hide-on-med-and-up" style="padding-top:20px;">
+            <div class="col s4 center" style="padding-top:20px;">
+                <a class="btn" href="/philosophy.html" style="padding: 0 1.5rem;color:#000">About</a>
+            </div>
+            <div class="col s4 center" style="padding-top:20px;">
+                <a class="btn" href="/faq.html" style="padding: 0 1.5rem;color:#000">FAQ</a>
+            </div>
+            <div class="col s4 center" style="padding-top:20px;">
+                <a class="btn" href="/press.html" style="padding: 0 1.5rem;color:#000">Press</a>
+            </div>
+        </div>
+
+
+        <div class="row hide-on-med-and-up" style="padding-top:10px;">
+            <div class="col s4 center" style="padding-top:10px;">
+                <a target="_blank" href="https://twitter.com/EthWaterloo" style="color:#000"><i class="icon-twitter" style="color:#000;"></i></a>
+            </div>
+            <div class="col s4 center" style="padding-top:10px;">
+                <a target="_blank" href="https://facebook.com/ETHWaterloo/" style="color:#000"><i class="icon-facebook" style="color:#000;"></i></a>
+            </div>
+            <div class="col s4 center" style="padding-top:10px;">
+                <a target="_blank" href="mailto:info@ethwaterloo.com" style="color:#000"><i class="icon-mail" style="color:#000"></i></a>
+            </div>
+        </div>
+
     </div>
-
-    <p class="f1 tf tc v-mid pa4" id="countdown" style="font-size: 100px; margin: 0"></p>
-
-    <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
-
-      // Update the count down every 1 second
-      var x = setInterval(function() {
-
-        // Get todays date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Display the result in the element with id="countdown"
-        document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-          + minutes + "m " + seconds + "s ";
-
-        // If the count down is finished, write some text
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("countdown").innerHTML = "EXPIRED";
-        }
-      }, 1000);
-    </script>
+</div>
 </body>
 </html>

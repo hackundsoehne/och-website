@@ -1,5 +1,372 @@
 .tf {
-    font-family: 'VT323', monospace;
+    font-family: 'Nova Round', monospace;
 }
 
+html {
+    background-color: #fefeff;
+    font-family: 'Quattrocento Sans', sans-serif !important;
+    color: #D0D6E0;
+}
 
+body, .section.white {
+    background-color: #fefeff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quattrocento Sans', sans-serif !important;
+}
+
+h1 {
+    color: #252C37;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2,
+h3 {
+    font-weight: 400;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    color: #444 !important;
+    font-weight: 400;
+    line-height: 1.4285em;
+}
+
+ul  {
+    text-align: left;
+    padding-left:0;
+}
+
+ul li  {
+    list-style-position:inside
+}
+
+.terminal {
+    --color: #252C37;
+    --background: #fefeff;
+    --animation: terminal-underline;
+    --size: 1;
+    width: 100%;
+}
+
+.terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+    font-family: Hack;
+}
+
+.terminal-output {
+    padding-bottom: 1rem;
+}
+
+#topbanner {
+    height: 80px;
+}
+
+#ethname {
+    height: 80%;
+    width: 80%;
+}
+
+#ethlogo {
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#meta{
+    width:30%;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 0.9rem;
+    }
+    #infocol {
+        text-align: center;
+    }
+    #ethname {
+        display: block;
+        margin: auto;
+    }
+    #ethname-header{
+        padding-top:18%;
+    }
+    h3 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    html {
+        font-size: 0.9rem;
+    }
+    #ethlogo {
+        padding-top: 25%;
+    }
+    #ethname-header{
+        height: 50%;
+        width: 50%;
+        padding-top:5%;
+    }
+    #main{
+        height:99%;
+    }
+    #footbanner {
+        height: 40px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1279px) {
+    html {
+        font-size: 0.7rem;
+    }
+    #ethlogo {
+        padding-top: 25%;
+    }
+    #ethname-header{
+        height: 45%;
+        width: 45%;
+        padding-top:5%;
+    }
+    #main{
+        padding-top:15%;
+    }
+    .terminal {
+        height: 500px;
+    }
+    .terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    html {
+        font-size: 0.8rem;
+    }
+    #ethlogo {
+        padding-top: 20%;
+    }
+    #ethname-header{
+        height: 45%;
+        width: 45%;
+        padding-top:5%;
+    }
+    .terminal {
+        height: 500px;
+    }
+    .terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+        font-size: 0.85rem;
+    }
+    .card-panel{
+        height:310px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+    html {
+        font-size: 0.9rem;
+    }
+    #ethlogo {
+        padding-top: 15%;
+    }
+    #ethname-header{
+        height: 40%;
+        width: 40%;
+        padding-top:5%;
+    }
+    .terminal {
+        height: 500px;
+    }
+    .terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+        font-size: 0.85rem;
+    }
+    .card-panel{
+        height:310px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+    html {
+        font-size: 0.9rem;
+    }
+    #ethlogo {
+        padding-top: 10%;
+    }
+    #ethname-header{
+        height: 40%;
+        width: 40%;
+        padding-top:5%;
+    }
+    #main{
+        padding-top:10%;
+    }
+    .terminal {
+        height: 600px;
+    }
+    .terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+    html {
+        font-size: 1rem;
+    }
+    #ethlogo {
+        padding-top: 10%;
+    }
+    #ethname-header{
+        height: 40%;
+        width: 40%;
+        padding-top:5%;
+    }
+    #main{
+        padding-top:10%;
+    }
+    .terminal {
+        height: 650px;
+    }
+    .terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    html {
+        font-size: 1rem;
+    }
+    #ethlogo {
+        padding-top: 15%;
+    }
+    #ethname-header{
+        height: 40%;
+        width: 40%;
+        padding-top:5%;
+    }
+    #main{
+        padding-top:10%;
+    }
+    .terminal {
+        height: 750px;
+    }
+    .terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+        font-size: 0.9rem;
+    }
+}
+
+#typeform {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-width: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box .header {
+    flex: 0 1 auto;
+}
+
+.box .content {
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.no-ethereum-section {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #222228;
+    font-size: 25px;
+}
+
+.no-ethereum-section .img-header-logo {
+    width: 264px;
+    padding-bottom: 30px;
+}
+
+.howtoapply .navbar {
+    padding: 1.5em;
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    box-shadow: 0 0.1em 0.25em rgba(0,0,0,.1);
+    font-size: 16px;
+}
+
+.howtoapply .navbar > * {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 140px;
+    -ms-flex: 0 0 140px;
+    flex: 0 0 140px;
+}
+
+.howtoapply .navbar div {
+    display: none;
+}
+
+.howtoapply .navbar div strong {
+    font-family: Hind Siliguri,-apple-system,BlinkMacSystemFont,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    color: rgba(51,51,51,.8);
+    font-size: 16px;
+    font-weight: bold !important;
+}
+
+.howtoapply .navbar img {
+    height: 26px;
+    -webkit-flex-basis: 200px;
+    -ms-flex-preferred-size: 200px;
+    flex-basis: 200px;
+}
+
+.howtoapply .navbar a {
+    color: #9281ec;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (min-width: 50em) {
+    .howtoapply .navbar div {
+        display: block;
+    }
+}
