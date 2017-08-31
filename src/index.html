@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
     <link rel="stylesheet" href="css/et-line-icon.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
@@ -36,72 +37,112 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 
     <!-- Google Analytics -->
-
+    <script src="js/require.js"></script>
+    <script src="js/typing.js"></script>
 </head>
 <body>
-<div id="main" class="section valign-wrapper white">
+<div id="main" class="section valign-wrapper white" style="padding-bottom: 0">
     <div class="container">
         <div class="row">
             <div class="col s12 m6 l4 pull-m6" id="infocol">
                 <img alt="" class="responsive-img" id="ethname" src="img/logo.png">
-                <h5 class="f3">APRIL 24-25 2018</h5>
-                <p>
-                    Mit rund 200 Teilnehmern wird der OpenCodes Hackathon der größte studentische Hackathon in Deutschland und damit auch eine der größten Veranstaltungen dieser Art in ganz Europa.
-                </p>
-
+                <h5 class="f3">MARCH 24-25 2018</h5>
+                <p class="f2 tf v-mid tl" id="countdown" style=" margin: 0">0d 0h 0m 0s</p>
                 <div class="row hide-on-med-and-down" style="padding-top:40px;">
                     <div class="col l12">
-                        <a target="_blank" href="https://facebook.com/ETHWaterloo/" style="color:#000"><i class="icon-facebook" style="color:#000; padding-right:80px;"></i></a>
-                        <a target="_blank" href="https://twitter.com/EthWaterloo" style="color:#000"><i class="icon-twitter" style="color:#000; padding-right:80px;"></i></a>
-                        <a target="_blank" href="mailto:info@ethwaterloo.com" style="color:#000"><i class="icon-mail" style="color:#000"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/hackundsoehne/" style="color:#000"><i class="icon-social-facebook" style="color:#000; padding-right:80px;"></i></a>
+                        <a target="_blank" href="https://twitter.com/hackundsoehne" style="color:#000"><i class="icon-social-twitter" style="color:#000; padding-right:80px;"></i></a>
+                        <a href="mailto:info@hackundsoehne.de" style="color:#000"><i class="icon-mail" style="color:#000"></i></a>
                     </div>
                 </div>
 
             </div>
-            <div class="col s12 l4" style="width: 66.666%">
-                <h1>Welcome to the largest student run hackathon in Germany!</h1>
-                <div>
-                    <h4>What makes us unique?</h4>
-                    <div class="row">
-                        <div class="col 12">
-                            <a target="_blank" href="https://facebook.com/ETHWaterloo/" style="color:#000"><i class="icon-diamond" style="color:#000; padding-right:80px;"></i></a>
+            <div class="col s12 l8">
+                <h1 style="margin: 0; padding: 1rem">Welcome to the largest student run hackathon in Germany!</h1>
+                <div class="pl2 pt3">
+                    <div class="col s12 l6" style="padding: 1rem">
+                        <i class="icon-trophy f2 dib" style="color:#000"></i>
+                        <h3 class="dib pl2 pb2" style="margin-bottom: 0">About</h3>
+                        <div class="single-service wow fadeIn text-center" style="padding-right: 4rem" data-wow-delay="0.2s">
+                            <p class="tl">
+                                Mit rund 200 Teilnehmern wird der OpenCodes Hackathon der größte studentische Hackathon in Deutschland und damit auch eine der größten Veranstaltungen dieser Art in ganz Europa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s12 l6" style="padding: 1rem">
+                        <i class="icon-flag f2 dib" style="color:#000"></i>
+                        <h3 class="dib pl2 pb1" style="margin-bottom: 0">More Information</h3>
+                        <div class="single-service wow fadeIn text-center pl3" data-wow-delay="0.2s">
+                            <ul>
+                                <li class="pa2">200 participants</li>
+                                <li class="pa2">28 hours of hacking</li>
+                                <li class="pa2">Part of a museum exhibit</li>
+                                <li class="pa2">8 years of experience</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
+                <div class="clear">
+                    <a target="_blank" href="https://ethwaterloo.com/apply"><button class="button bf ml4 mb4" id="mc-embedded-subscribe" name="subscribe" style="color:white;border-radius: 2px;padding: 8px 30px;background-color: #CB4F3F;font-size: 1.2rem;font-weight: 400;border: 1px solid;border-color:transparent;">Learn more</button></a>
+                </div>
                 <div>
-                    <h4>Interested in a sponsorship?</h4>
+                    <h4 class="mt4 pl3">Interested in a sponsorship? Please <a target="_blank" href="https://hackundsoehne.de/contact">contact us.</a></h4>
                 </div>
             </div>
         </div>
 
-
-        <div class="row hide-on-med-and-up" style="padding-top:20px;">
-            <div class="col s4 center" style="padding-top:20px;">
-                <a class="btn" href="/philosophy.html" style="padding: 0 1.5rem;color:#000">About</a>
+        <footer class="">
+            <div class="db center">
+                <div class="dib tc pb1 pt4">
+                    <p>an event by</p>
+                    <div class="db col l12 tc">
+                        <a href="terms.html" class="dib pl2 pr2"><img style="width: 200px; padding: 1rem" class="desaturate pr2" src="img/talkit.png"/></a>
+                        <a href="terms.html" class="dib pl2 pr2"><img style="width: 100px; padding: 1rem" class="desaturate pl2" src="img/hs.png"/></a>
+                    </div>
+                </div>
+                <div class="dib tc pb4">
+                    <p>in cooperation with</p>
+                    <div class="db col l12 tc">
+                        <a href="terms.html" class="dib pl2 pr2"><img style="width: 200px; padding: 1rem" class="desaturate pl2" src="img/zkm.png"/></a>
+                    </div>
+                </div>
+                <div class="col l12 tc pb4">
+                    <a target="_blank" href="https://hackundsoehne.de/contact" class="pl4 pr2" style="color: black">Contact</a>
+                    <a target="_blank" href="https://hackundsoehne.de/terms" class="pl2 pr4" style="color: black">Terms &amp; Conditions</a>
+                </div>
             </div>
-            <div class="col s4 center" style="padding-top:20px;">
-                <a class="btn" href="/faq.html" style="padding: 0 1.5rem;color:#000">FAQ</a>
-            </div>
-            <div class="col s4 center" style="padding-top:20px;">
-                <a class="btn" href="/press.html" style="padding: 0 1.5rem;color:#000">Press</a>
-            </div>
-        </div>
-
-
-        <div class="row hide-on-med-and-up" style="padding-top:10px;">
-            <div class="col s4 center" style="padding-top:10px;">
-                <a target="_blank" href="https://twitter.com/EthWaterloo" style="color:#000"><i class="icon-twitter" style="color:#000;"></i></a>
-            </div>
-            <div class="col s4 center" style="padding-top:10px;">
-                <a target="_blank" href="https://facebook.com/ETHWaterloo/" style="color:#000"><i class="icon-facebook" style="color:#000;"></i></a>
-            </div>
-            <div class="col s4 center" style="padding-top:10px;">
-                <a target="_blank" href="mailto:info@ethwaterloo.com" style="color:#000"><i class="icon-mail" style="color:#000"></i></a>
-            </div>
-        </div>
-
+        </footer>
     </div>
 </div>
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="countdown"
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+</script>
 </body>
 </html>

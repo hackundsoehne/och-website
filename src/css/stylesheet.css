@@ -2,9 +2,18 @@
     font-family: 'Nova Round', monospace;
 }
 
+
+.bf {
+    font-family: 'Quicksand', monospace;
+}
+
+img.desaturate {
+    filter: grayscale(100%);
+}
+
 html {
     background-color: #fefeff;
-    font-family: 'Quattrocento Sans', sans-serif !important;
+    font-family: 'Quicksand', sans-serif !important;
     color: #D0D6E0;
 }
 
@@ -18,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Quattrocento Sans', sans-serif !important;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 h1 {
