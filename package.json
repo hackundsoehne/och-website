@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Website for Hack & Söhne openCodes Hackathon",
+  "main": "HTML/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/hacksoehne/och-website.git"
+  },
+  "author": "Hack & Söhne",
+  "license": "ISC",
+  "homepage": "https://hackundsoehne.de",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server ./src -p 8080 -d False"
+  }
+}
