@@ -12,6 +12,16 @@
     vertical-align: middle;
 }
 
+.bg-img {
+    background-image: url(/img/bg.png);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 img.desaturate {
     filter: grayscale(100%);
 }
