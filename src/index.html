@@ -42,9 +42,15 @@
     <!-- TACHYONS -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 
+    <!-- SCRIPTS -->
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
+
     <!-- Google Analytics -->
-    <script src="js/require.js"></script>
-    <script src="js/typing.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body class="bg-img">
 <div id="main" class="section valign-wrapper white" style="padding-bottom: 0; background-color: transparent!important;">
@@ -64,17 +70,18 @@
 
             </div>
             <div class="col s12 l8">
-                <h1 style="margin: 0; padding: 1rem">Welcome to the largest student run hackathon in Germany!</h1>
+                <h1 class="type-it" style="margin: 0; padding: 1rem">Welcome to the largest student run hackathon in Germany!</h1>
                 <div class="pl2 pt3">
                     <div class="col s12 l6" style="padding: 1rem; padding-bottom: 0">
                         <i class="icon-trophy f2 dib" style="color:#000"></i>
                         <h3 class="dib pl2 pb2" style="margin-bottom: 0">About</h3>
                         <div class="single-service wow fadeIn text-center" style="padding-right: 4rem" data-wow-delay="0.2s">
                             <p class="tl">
-                                Surrounded by precious artworks and visitors in awe, the OpenCode Hackathon will take place in the middle of the renown <a target="_blank" href="http://zkm.de/en/event/2017/10/open-codes">ZKM</a> museum!
+                                Surrounded by precious artworks and visitors in awe, the OpenCode Hackathon will take place in the middle of the renowned <a target="_blank" href="http://zkm.de/en/event/2017/10/open-codes">ZKM</a> museum!
                                 <br><br>
                                 We herby present a truly unique opportunity to connect and spread ideas beyond the boundaries of our usual environments.
                                 <br><br>
+                                <span class="f4">Interested in sponsoring us?<br><a target="_blank" href="https://hackundsoehne.de/contact">Let's connect</a>.</span>
                             </p>
                         </div>
                     </div>
@@ -91,11 +98,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s12 l8">
+                <div class="clear">
                     <a target="_blank" href=""><button class="button bf ml4 mb4" id="mc-embedded-subscribe" name="subscribe" style="color:white;border-radius: 2px;padding: 8px 30px;background-color: #CB4F3F;font-size: 1.2rem;font-weight: 400;border: 1px solid;border-color:transparent;">Learn more</button></a>
-                </div>
-                <div class="col s12 l8">
-                    <h4 class="f4 mt2 pl2">Interested in sponsoring us? <a target="_blank" href="https://hackundsoehne.de/contact">Let's connect</a>.</h4>
                 </div>
             </div>
         </div>
@@ -125,7 +129,7 @@
 </div>
 <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+  var countDownDate = new Date("March 24, 2018 10:00:00").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function() {
@@ -152,6 +156,13 @@
       document.getElementById("countdown").innerHTML = "EXPIRED";
     }
   }, 1000);
+
+  // Typing animation
+  $('.type-it').typeIt({
+    speed: 30,
+    lifeLike: true,
+    cursor: false
+  });
 </script>
 </body>
 </html>
