@@ -160,6 +160,9 @@ ul li  {
         right: 0;
         margin-left: 25%;
     }
+    #countdown {
+        font-size: 2rem;
+    }
     #ethlogo {
         padding-top: 25%;
     }
