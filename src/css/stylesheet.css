@@ -14,12 +14,11 @@
 
 .bg-img {
     background-image: url("/img/bg.png");
-
     height: 100%;
-
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 img.desaturate {
@@ -129,7 +128,13 @@ ul li  {
     html {
         font-size: 0.9rem;
     }
+    .bg-img {
+        background-image: url("/img/phone-bg.png");
+    }
     #infocol {
+        text-align: center;
+    }
+    #countdown {
         text-align: center;
     }
     #ethname {
@@ -148,6 +153,13 @@ ul li  {
     html {
         font-size: 0.9rem;
     }
+    .bg-img {
+        background-image: url("/img/tablet-bg.png");
+    }
+    #infocol {
+        right: 0;
+        margin-left: 25%;
+    }
     #ethlogo {
         padding-top: 25%;
     }
@@ -157,7 +169,7 @@ ul li  {
         padding-top:5%;
     }
     #main{
-        height:99%;
+        height:auto;
     }
     #footbanner {
         height: 40px;
