@@ -136,6 +136,7 @@ ul li  {
     }
     #countdown {
         text-align: center;
+        font-size: 2rem;
     }
     #ethname {
         display: block;
