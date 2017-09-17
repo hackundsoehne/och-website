@@ -2,6 +2,8 @@
 
 Website at: https://opencodes.io
 
+**Important:** master branch is building live. Be aware when pushing.
+
 To build:
 1. ```npm install```
 2. ```npm start```
