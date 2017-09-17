@@ -410,3 +410,12 @@ ul li  {
         display: block;
     }
 }
+
+q {
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.25rem;
+    line-height: 1.15;
+}
