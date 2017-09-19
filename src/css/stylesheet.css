@@ -13,12 +13,15 @@
 }
 
 #home {
-    background-image: url("/img/bg.png");
     height: 100%;
     background-position: center;
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.bg-img {
+    background-image: url("/img/bg.png");
 }
 
 img.desaturate {
