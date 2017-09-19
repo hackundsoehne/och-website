@@ -24,10 +24,6 @@
     background-image: url("/img/bg.png");
 }
 
-img.desaturate {
-    filter: grayscale(100%);
-}
-
 html {
     background-color: #fefeff;
     font-family: 'Quicksand', sans-serif !important;
