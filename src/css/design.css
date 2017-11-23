@@ -8,3 +8,40 @@ svg {
 #topbanner-design {
     height: 45vh;
 }
+
+
+@media (max-width: 37.5em) {
+    svg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 37.56em) and (max-width: 62em) {
+    svg {
+        width: 500px;
+    }
+}
+
+@media (min-width: 62.1em) and (max-width: 79.93em) {
+    svg {
+        width: 600px;
+    }
+}
+
+@media (min-width: 79.94em) and (max-width: 89.93em) {
+    svg {
+        width: 600px;
+    }
+}
+
+@media (min-width: 62.1em) and (max-width: 79.93em) {
+    svg {
+        width: 600px;
+    }
+}
+
+@media (min-width: 159.94em) {
+    svg {
+        width: 3000px;
+    }
+}
