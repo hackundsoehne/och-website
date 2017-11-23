@@ -1,0 +1,10 @@
+svg {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+#topbanner-design {
+    height: 45vh;
+}
