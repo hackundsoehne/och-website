@@ -3,12 +3,12 @@ svg {
     margin: 0 auto;
     position: relative;
     top: 50%;
+    width: 700px;
 }
 
 #topbanner-design {
     height: 45vh;
 }
-
 
 @media (max-width: 37.5em) {
     svg {
@@ -22,26 +22,20 @@ svg {
     }
 }
 
-@media (min-width: 62.1em) and (max-width: 79.93em) {
+@media (min-width: 62.1em) and (max-width: 89.63em) {
     svg {
         width: 600px;
     }
 }
 
-@media (min-width: 79.94em) and (max-width: 89.93em) {
+@media (min-width: 89.63em) and (max-width: 119.93em) {
     svg {
-        width: 600px;
+        width: 700px;
     }
 }
 
-@media (min-width: 62.1em) and (max-width: 79.93em) {
+@media (min-width: 119.93em) and (max-width: 79.93em) {
     svg {
         width: 600px;
-    }
-}
-
-@media (min-width: 159.94em) {
-    svg {
-        width: 3000px;
     }
 }
