@@ -10,6 +10,52 @@ svg {
     height: 45vh;
 }
 
+.diagonal-background {
+    transform:skew(0deg, 5deg);
+    -ms-transform:skew(0deg, 5deg);
+    -webkit-transform:skew(0deg, 2.5deg);
+}
+
+.diagonal-background-inverse {
+    transform:skew(0deg, -5deg);
+    -ms-transform:skew(0deg, -5deg);
+    -webkit-transform:skew(0deg, -2.5deg);
+}
+.triangle {
+    text-align: center;
+    position: relative; }
+.triangle.black {
+    color: white;
+    z-index: 1; }
+.triangle.black a {
+    color: white; }
+.triangle.black:before {
+    background-color: #2B2E34; }
+.triangle.yellow {
+    color: #2B2E34; }
+.triangle.yellow:before {
+    background-color: #FED74C; }
+.triangle.yellow a:hover {
+    background-color: black;
+    color: #FED74C; }
+.triangle a:hover {
+    background-color: black;
+    color: white; }
+.triangle:before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    transform: skewY(-1deg);
+    transform-origin: top left;
+    z-index: -1; }
+
+.triangle.inverse:before {
+    transform: skewY(1deg);
+}
+
 @media (max-width: 37.5em) {
     svg {
         width: 350px;
