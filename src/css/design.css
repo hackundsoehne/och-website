@@ -10,17 +10,30 @@ svg {
     height: 45vh;
 }
 
-.diagonal-background {
-    transform:skew(0deg, 5deg);
-    -ms-transform:skew(0deg, 5deg);
-    -webkit-transform:skew(0deg, 2.5deg);
+.db-p1 {
+    transform:skew(0deg, 2deg);
+    -ms-transform:skew(0deg, 2deg);
+    -webkit-transform:skew(0deg, 1deg);
 }
 
-.diagonal-background-inverse {
-    transform:skew(0deg, -5deg);
-    -ms-transform:skew(0deg, -5deg);
-    -webkit-transform:skew(0deg, -2.5deg);
+.db-p2 {
+    transform:skew(0deg, 4deg);
+    -ms-transform:skew(0deg, 4deg);
+    -webkit-transform:skew(0deg, 2deg);
 }
+
+.db-n1 {
+    transform:skew(0deg, -2deg);
+    -ms-transform:skew(0deg, -2deg);
+    -webkit-transform:skew(0deg, -1deg);
+}
+
+.db-n2 {
+    transform:skew(0deg, -4deg);
+    -ms-transform:skew(0deg, -4deg);
+    -webkit-transform:skew(0deg, -2deg);
+}
+
 .triangle {
     text-align: center;
     position: relative; }
