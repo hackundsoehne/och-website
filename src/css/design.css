@@ -17,6 +17,18 @@ svg {
 }
 
 .db-p2 {
+    transform:skew(0deg,8deg);
+    -ms-transform:skew(0deg, 8deg);
+    -webkit-transform:skew(0deg, 4deg);
+}
+
+.db-i1 {
+    transform:skew(0deg, 2deg);
+    -ms-transform:skew(0deg, 2deg);
+    -webkit-transform:skew(0deg, 1deg);
+}
+
+.db-i2 {
     transform:skew(0deg, 4deg);
     -ms-transform:skew(0deg, 4deg);
     -webkit-transform:skew(0deg, 2deg);
@@ -29,9 +41,9 @@ svg {
 }
 
 .db-n2 {
-    transform:skew(0deg, -4deg);
-    -ms-transform:skew(0deg, -4deg);
-    -webkit-transform:skew(0deg, -2deg);
+    transform:skew(0deg, -8deg);
+    -ms-transform:skew(0deg, -8deg);
+    -webkit-transform:skew(0deg, -4deg);
 }
 
 .triangle {
