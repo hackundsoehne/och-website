@@ -1,4 +1,4 @@
-svg {
+.title-svg {
     display: block;
     margin: 0 auto;
     position: relative;
@@ -17,19 +17,7 @@ svg {
 }
 
 .db-p2 {
-    transform:skew(0deg,8deg);
-    -ms-transform:skew(0deg, 8deg);
-    -webkit-transform:skew(0deg, 4deg);
-}
-
-.db-i1 {
-    transform:skew(0deg, 2deg);
-    -ms-transform:skew(0deg, 2deg);
-    -webkit-transform:skew(0deg, 1deg);
-}
-
-.db-i2 {
-    transform:skew(0deg, 4deg);
+    transform:skew(0deg,4deg);
     -ms-transform:skew(0deg, 4deg);
     -webkit-transform:skew(0deg, 2deg);
 }
@@ -41,72 +29,37 @@ svg {
 }
 
 .db-n2 {
-    transform:skew(0deg, -8deg);
-    -ms-transform:skew(0deg, -8deg);
-    -webkit-transform:skew(0deg, -4deg);
-}
-
-.triangle {
-    text-align: center;
-    position: relative; }
-.triangle.black {
-    color: white;
-    z-index: 1; }
-.triangle.black a {
-    color: white; }
-.triangle.black:before {
-    background-color: #2B2E34; }
-.triangle.yellow {
-    color: #2B2E34; }
-.triangle.yellow:before {
-    background-color: #FED74C; }
-.triangle.yellow a:hover {
-    background-color: black;
-    color: #FED74C; }
-.triangle a:hover {
-    background-color: black;
-    color: white; }
-.triangle:before {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    transform: skewY(-1deg);
-    transform-origin: top left;
-    z-index: -1; }
-
-.triangle.inverse:before {
-    transform: skewY(1deg);
+    transform:skew(0deg, -4deg);
+    -ms-transform:skew(0deg, -4deg);
+    -webkit-transform:skew(0deg, -2deg);
 }
 
 @media (max-width: 37.5em) {
-    svg {
+    .title-svg {
         width: 350px;
     }
 }
 
 @media (min-width: 37.56em) and (max-width: 62em) {
-    svg {
+    .title-svg {
         width: 500px;
     }
 }
 
 @media (min-width: 62.1em) and (max-width: 89.63em) {
-    svg {
+    .title-svg {
         width: 600px;
     }
 }
 
 @media (min-width: 89.63em) and (max-width: 119.93em) {
-    svg {
+    .title-svg {
         width: 700px;
     }
 }
 
 @media (min-width: 119.93em) and (max-width: 79.93em) {
-    svg {
+    .title-svg {
         width: 600px;
     }
 }
