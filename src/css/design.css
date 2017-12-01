@@ -11,27 +11,27 @@
 }
 
 .db-p1 {
-    transform:skew(0deg, 2deg);
+    transform:skew(0deg, 1deg);
+    -ms-transform:skew(0deg, 1deg);
+    -webkit-transform:skew(0deg, 0.5deg);
+}
+
+.db-p2 {
+    transform:skew(0deg,2deg);
     -ms-transform:skew(0deg, 2deg);
     -webkit-transform:skew(0deg, 1deg);
 }
 
-.db-p2 {
-    transform:skew(0deg,4deg);
-    -ms-transform:skew(0deg, 4deg);
-    -webkit-transform:skew(0deg, 2deg);
-}
-
 .db-n1 {
-    transform:skew(0deg, -2deg);
-    -ms-transform:skew(0deg, -2deg);
-    -webkit-transform:skew(0deg, -1deg);
+    transform:skew(0deg, -1deg);
+    -ms-transform:skew(0deg, -1deg);
+    -webkit-transform:skew(0deg, -0.5deg);
 }
 
 .db-n2 {
-    transform:skew(0deg, -4deg);
-    -ms-transform:skew(0deg, -4deg);
-    -webkit-transform:skew(0deg, -2deg);
+    transform:skew(0deg, -2deg);
+    -ms-transform:skew(0deg, -2deg);
+    -webkit-transform:skew(0deg, -1deg);
 }
 
 @media (max-width: 37.5em) {
