@@ -1,5 +1,5 @@
 <!doctype html>
-<html xmlns: xmlns: xmlns: xmlns: xmlns: xmlns: xmlns: xmlns: class="no-js" lang="en-US">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" class="no-js" lang="en-US">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
 
     <!-- SEO -->
     <meta property="og:locale" content="de_DE">
-    <meta property="og:url" content="https://opencodes.de">
+    <meta property="og:url" content="https://opencodes.io">
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="Open Codes Hack">
     <meta property="og:description" content="Welcome to the largest student run hackathon in Germany!">
@@ -52,6 +52,29 @@
 
       gtag('config', 'UA-90422115-2');
     </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '240469439821263');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=240469439821263&ev=PageView&noscript=1"
+    /></noscript>
+
+    <script>
+      fbq('track', 'ViewContent');
+      fbq('track', 'Lead');
+    </script>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body id=about>
@@ -85,7 +108,14 @@
     </div>
 </div>
 
-
+<!-- Smooch io -->
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+<script>
+  Smooch.init({
+    appToken: 'bitk39r85itqu1ou0c68e2acg',
+    emailCaptureEnabled: true
+  });
+</script>
 
 <!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

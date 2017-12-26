@@ -24,6 +24,10 @@
     background-image: url("/img/bg.png");
 }
 
+.hs-red-bg {
+    background: #A63324;
+}
+
 html {
     background-color: #fefeff;
     font-family: 'Quicksand', sans-serif !important;
@@ -80,7 +84,7 @@ p {
 
 ul  {
     text-align: left;
-    padding-left:0;
+    padding-left:1rem;
 }
 
 ul li  {

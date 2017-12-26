@@ -1,0 +1,65 @@
+.title-svg {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    width: 700px;
+}
+
+#topbanner-design {
+    height: 45vh;
+}
+
+.db-p1 {
+    transform:skew(0deg, 1deg);
+    -ms-transform:skew(0deg, 1deg);
+    -webkit-transform:skew(0deg, 0.5deg);
+}
+
+.db-p2 {
+    transform:skew(0deg,2deg);
+    -ms-transform:skew(0deg, 2deg);
+    -webkit-transform:skew(0deg, 1deg);
+}
+
+.db-n1 {
+    transform:skew(0deg, -1deg);
+    -ms-transform:skew(0deg, -1deg);
+    -webkit-transform:skew(0deg, -0.5deg);
+}
+
+.db-n2 {
+    transform:skew(0deg, -2deg);
+    -ms-transform:skew(0deg, -2deg);
+    -webkit-transform:skew(0deg, -1deg);
+}
+
+@media (max-width: 37.5em) {
+    .title-svg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 37.56em) and (max-width: 62em) {
+    .title-svg {
+        width: 500px;
+    }
+}
+
+@media (min-width: 62.1em) and (max-width: 89.63em) {
+    .title-svg {
+        width: 600px;
+    }
+}
+
+@media (min-width: 89.63em) and (max-width: 119.93em) {
+    .title-svg {
+        width: 700px;
+    }
+}
+
+@media (min-width: 119.93em) and (max-width: 79.93em) {
+    .title-svg {
+        width: 600px;
+    }
+}

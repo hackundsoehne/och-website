@@ -1,5 +1,5 @@
 <!doctype html>
-<html xmlns: xmlns: xmlns: xmlns: xmlns: xmlns: xmlns: xmlns: class="no-js" lang="en-US">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" class="no-js" lang="en-US">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
 
     <!-- SEO -->
     <meta property="og:locale" content="de_DE">
-    <meta property="og:url" content="https://opencodes.de">
+    <meta property="og:url" content="https://opencodes.io">
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="Open Codes Hack">
     <meta property="og:description" content="Welcome to the largest student run hackathon in Germany!">
@@ -53,6 +53,28 @@
       gtag('config', 'UA-90422115-2');
     </script>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '240469439821263');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=240469439821263&ev=PageView&noscript=1"
+    /></noscript>
+
+    <script>
+      fbq('track', 'ViewContent');
+      fbq('track', 'Lead');
+    </script>
+    <!-- End Facebook Pixel Code -->
 </head>
 <body id=home class="bg-img">
 <div id="main" class="section valign-wrapper white" style="padding-bottom: 0; background-color: transparent!important;">
@@ -87,9 +109,14 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col s12 l6" style="padding: 1rem">
+                    <div class="col s12 l4" style="padding: 1rem">
+                        <div class="pb3">
+                            <i class="icon-paintbrush f2 dib" style="color:#000"></i>
+                            <h3 class="dib pl2 pb1" style="margin-bottom: 0"><a href="design.html">Design Competition</a></h3>
+                            <p>We are looking for talented design students to help us along our ride!</p>
+                        </div>
                         <i class="icon-flag f2 dib" style="color:#000"></i>
-                        <h3 class="dib pl2 pb1" style="margin-bottom: 0">More Information</h3>
+                        <h3 class="dib pl2 pb1" style="margin-bottom: 0"><a href="about.html">More Information</a></h3>
                         <div class="single-service wow fadeIn text-center" data-wow-delay="0.2s">
                             <ul>
                                 <li class="pv2">200 participants</li>
@@ -97,9 +124,6 @@
                                 <li class="pv2">Part of museum exhibit</li>
                                 <li class="pv2">8 years of experience<br>in event management</li>
                             </ul>
-                        </div>
-                        <div class="clear pt4">
-                            <a href="about.html"><button class="button bf" id="mc-embedded-subscribe" name="subscribe" style="color:white;border-radius: 2px;padding: 8px 30px;background-color: #CB4F3F;font-size: 1.2rem;font-weight: 400;border: 1px solid;border-color:transparent;">Learn more</button></a>
                         </div>
                     </div>
                 </div>
@@ -130,6 +154,16 @@
         </footer>
     </div>
 </div>
+
+<!-- Smooch io -->
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+<script>
+  Smooch.init({
+    appToken: 'bitk39r85itqu1ou0c68e2acg',
+    emailCaptureEnabled: true
+  });
+</script>
+
 <script>
   // Set the date we're counting down to
   var countDownDate = new Date("March 24, 2018 10:00:00").getTime();
