@@ -1,0 +1,11 @@
+.hf {
+    font-family: 'Nova Mono', cursive;
+}
+
+.hero-button {
+    width: 100px !important;
+    background:  white;
+    color:  black !important;
+    text-align: center;
+    font-family: 'Nova Mono', cursive;
+}
