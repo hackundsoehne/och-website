@@ -2,8 +2,12 @@
     font-family: 'Nova Mono', cursive;
 }
 
+.scp {
+    font-family: 'Source Code Pro', monospace;
+}
+
 .hero-button {
-    width: 100px !important;
+    width: 120px !important;
     background:  white;
     color:  black !important;
     text-align: center;

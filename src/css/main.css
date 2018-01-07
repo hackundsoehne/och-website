@@ -124,8 +124,9 @@
 }
 .wrapper,
 .header {
+    width:  100;
     margin: 0 auto;
-    max-width: 1600px;
+    /* max-width: 1600px; */
 }
 /*End site wrapper*/
 
@@ -151,7 +152,7 @@ section.single-hero {
 .background-img {
     background-attachment: scroll;
     background-clip: border-box;
-    background-color: #353031;
+    background-color: black;
     background-image: none;
     background-origin: padding-box;
     background-position: 50% 50% !important;
@@ -315,16 +316,16 @@ section.hero .inner-hero {
 }
 h1.large {
     color: #ffffff;
-    font-size: 68px;
+    font-size: 4.5rem;
     font-weight: 700;
     text-transform: none;
 }
 .hero-content h3 {
-    font-style: italic;
-    font-size: 44px;
+    /* font-style: italic; */
+    font-size: 2rem;
     color: #ffffff;
     text-transform: none;
-    font-weight: 300;
+    font-weight: 500;
 }
 .hero-content p {
     font-size: 15px;
