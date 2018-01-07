@@ -13,3 +13,13 @@
     text-align: center;
     font-family: 'Nova Mono', cursive;
 }
+
+.content-section {
+    position: relative;
+    text-align: center;
+    transform: translateY(-70%);
+    -webkit-transform: translateY(-70%);
+    -moz-transform: translateY(-70%);
+    -ms-transform: translateY(-70%);
+    -o-transform: translateY(-70%);
+}

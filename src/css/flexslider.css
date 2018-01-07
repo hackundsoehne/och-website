@@ -17,7 +17,7 @@
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;font-weight:normal;} 
+.flex-direction-nav {margin: 0;padding: 0;list-style: none;font-weight:normal;} 
 
 /* FlexSlider Necessary Styles
 *********************************/ 
