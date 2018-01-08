@@ -204,3 +204,4 @@ modules.xml
 
 # End of https://www.gitignore.io/api/webstorm,webstorm+iml,webstorm+all
 package-lock.json
+.DS_Store
