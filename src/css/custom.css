@@ -7,7 +7,7 @@
 }
 
 .hero-button {
-    width: 115px !important;
+    width: 120px !important;
     background:  white;
     color:  black !important;
     text-align: center;
@@ -40,16 +40,12 @@
     text-align: right;
 }
 
-<<<<<<< Updated upstream
 #nav-bar-logo {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-=======
-body {
     font-family: "Source Code Pro";
->>>>>>> Stashed changes
 }
 
 @media (max-width: 37.5em) {
