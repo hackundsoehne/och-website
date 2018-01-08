@@ -26,7 +26,7 @@ gulp.task('updateContent', () => {
 
         const body = parse5.serialize(doc.childNodes[1].childNodes[2]);
 
-        gulp.src('src/templates/template.html')
+        gulp.src('src/template.html')
           .pipe(template(
             {content: body}
           ))
