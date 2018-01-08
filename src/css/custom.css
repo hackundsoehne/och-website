@@ -40,6 +40,13 @@
     text-align: right;
 }
 
+#nav-bar-logo {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
 @media (max-width: 37.5em) {
     .header-title {
         font-size: 2rem;
