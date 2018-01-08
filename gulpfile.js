@@ -56,3 +56,10 @@ watcher.on('change', function(path, stats) {
     gulp.start('updateContent');
     gulp.start('updateEssentials');
 });
+
+var watcher = gulp.watch('src/*.html');
+
+watcher.on('change', function(path, stats) {
+    gulp.start('updateContent');
+    gulp.start('updateEssentials');
+});
