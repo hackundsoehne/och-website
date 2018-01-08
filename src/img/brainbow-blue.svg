@@ -13,7 +13,7 @@
         </linearGradient>
         <style>.cls-1 {
             fill: none;
-            stroke: url('#blue');
+            stroke: #a63324;
             stroke-miterlimit: 10;
             stroke-width: 1.75px;
             }</style>
