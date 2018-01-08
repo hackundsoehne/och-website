@@ -11,10 +11,10 @@ gulp.task('default', () => {
 });
 
 gulp.task('updateEssentials', () => {
-    gulp.src('src/css/*').pipe(gulp.dest('dist/css'));
-    gulp.src('src/font/*').pipe(gulp.dest('dist/font'));
-    gulp.src('src/js/*').pipe(gulp.dest('dist/js'));
-    gulp.src('src/img/*').pipe(gulp.dest('dist/img'));
+    gulp.src('src/css/**/*').pipe(gulp.dest('dist/css'));
+    gulp.src('src/font/**/*').pipe(gulp.dest('dist/font'));
+    gulp.src('src/js/**/*').pipe(gulp.dest('dist/js'));
+    gulp.src('src/img/**/*').pipe(gulp.dest('dist/img'));
 })
 
 gulp.task('updateContent', () => {
@@ -50,14 +50,7 @@ gulp.task('updateContent', () => {
     })
 })
 
-var watcher = gulp.watch('src/*/*');
-
-watcher.on('change', function(path, stats) {
-    gulp.start('updateContent');
-    gulp.start('updateEssentials');
-});
-
-var watcher = gulp.watch('src/*.html');
+var watcher = gulp.watch('src/**/*');
 
 watcher.on('change', function(path, stats) {
     gulp.start('updateContent');
