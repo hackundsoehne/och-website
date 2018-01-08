@@ -18,7 +18,11 @@
 .content-section {
     position: relative;
     text-align: center;
-    top: 10rem;
+    top: 5rem;
+}
+
+.faq-pt {
+    padding-top: 120px;
 }
 
 .header-title {
@@ -55,6 +59,10 @@
     }
     .header-logo {
         float: left;
+    }
+
+    .faq-pt {
+        padding-top: 30px;
     }
     .header-logo img {
         width: 60px;
