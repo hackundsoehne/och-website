@@ -12,6 +12,7 @@
     color:  black !important;
     text-align: center;
     font-family: 'Nova Mono', cursive;
+    text-transform: uppercase;
 }
 
 .content-section {
