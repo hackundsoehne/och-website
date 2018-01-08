@@ -16,7 +16,7 @@
   // Hide logo in nav bar on scroll
   $(window).on("scroll", function () {
     if ($(window).width() > 1060) {
-      if ($(this).scrollTop() > 20) {
+      if ($(this).scrollTop() > 30) {
         $("#nav-bar-logo").addClass("dn");
       }
       else {
