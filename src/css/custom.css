@@ -52,6 +52,22 @@
     font-family: "Source Code Pro";
 }
 
+.header {
+    background-color: #1a1919;
+}
+
+.bg-black  {
+    background-color: #1a1919 !important;
+}
+
+.bg-dark {
+    background-color: #1a1919 !important;
+}
+
+body {
+    background-color: #1a1919;
+}
+
 @media (max-width: 37.5em) {
     .header-title {
         font-size: 2rem;
