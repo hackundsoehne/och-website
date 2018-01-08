@@ -32,6 +32,9 @@
 .header-logo {
     float: right;
 }
+.header-logo img {
+    width: 100px;
+}
 
 .footer-copyright {
     text-align: left;
@@ -43,15 +46,64 @@
 @media (max-width: 37.5em) {
     .header-title {
         font-size: 2rem;
-        padding-top: 0.80rem;
+        padding-top: 0.35rem;
     }
     .header-logo {
         float: left;
+    }
+    .header-logo img {
+        width: 60px;
     }
     .footer-copyright {
         text-align: center;
     }
     .footer-buttons {
+        text-align: center;
+    }
+}
+
+@media (min-width: 37.56em) and (max-width: 62em) {
+    .header-title {
+        line-height: 85%;
+        font-size: 3.5rem;
+        padding-top: 0.2rem;
+    }
+    .header-logo {
+        float: left;
+    }
+    .header-logo img {
+        width: 100px;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+    .footer-buttons {
+        text-align: center;
+    }
+}
+
+@media (min-width: 62.1em) and (max-width: 79.93em) {
+    .header-title {
+        line-height: 85%;
+        font-size: 4rem;
+        padding-top: 1.5rem;
+    }
+    .header-logo {
+        float: left;
+    }
+    .header-logo img {
+        width: 100px;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+    .footer-buttons {
+        text-align: center;
+    }
+    .hero-button {
+        width: 95px !important;
+    }
+    .hero-button-list {
         text-align: center;
     }
 }

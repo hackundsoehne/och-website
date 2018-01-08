@@ -983,7 +983,7 @@ select.error {
     }
     .main-nav li a {
         display: inline-block;
-        padding-top: 0;
+        padding-top: 12px;
         padding-bottom: 12px;
     }
     .main-nav li:first-child a {
@@ -1051,7 +1051,7 @@ select.error {
     }
     .main-nav li a {
         display: inline-block;
-        padding-top: 0;
+        padding-top: 12px;
         padding-bottom: 12px;
     }
     .but {
@@ -1117,7 +1117,7 @@ select.error {
         -webkit-border-radius: 0;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 1060px) {
     input,
     textarea {
         -webkit-appearance: none;
@@ -1137,7 +1137,7 @@ select.error {
     }
     .main-nav li a {
         display: inline-block;
-        padding-top: 0;
+        padding-top: 12px;
         padding-bottom: 12px;
     }
     .main-nav li:first-child a {
@@ -1202,7 +1202,7 @@ select.error {
     }
     .main-nav li a {
         display: inline-block;
-        padding-top: 0;
+        padding-top: 12px;
         padding-bottom: 12px;
     }
     .main-nav li:first-child a {
