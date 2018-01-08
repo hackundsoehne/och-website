@@ -24,11 +24,25 @@ gulp.task('updateContent', () => {
 
         const doc = parse5.parse(fileContent);
 
-        const body = parse5.serialize(doc.childNodes[1].childNodes[2]);
+        var body = []
+        var styledef = ""
+
+        doc.childNodes[1].childNodes.forEach(function(element) {
+          if (element.tagName === "body") {
+            body = parse5.serialize(element);
+            element.attrs.forEach(function (attr) {
+              if (attr.name === "style") {
+                styledef = attr.value
+              }
+            });
+          }
+        })
+
 
         gulp.src('src/template.html')
           .pipe(template(
-            {content: body}
+            {content: body,
+             style : styledef}
           ))
           .pipe(rename(file))
           .pipe(gulp.dest('dist/'))
