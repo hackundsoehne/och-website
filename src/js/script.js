@@ -14,13 +14,14 @@
 
 
   // Hide logo in nav bar on scroll
-
   $(window).on("scroll", function () {
-    if ($(this).scrollTop() > 100) {
-      $("#nav-bar-logo").addClass("dn");
-    }
-    else {
-      $("#nav-bar-logo").removeClass("dn");
+    if ($(window).width() > 1060) {
+      if ($(this).scrollTop() > 100) {
+        $("#nav-bar-logo").addClass("dn");
+      }
+      else {
+        $("#nav-bar-logo").removeClass("dn");
+      }
     }
   });
 

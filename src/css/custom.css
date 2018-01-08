@@ -45,6 +45,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    font-family: "Source Code Pro";
 }
 
 @media (max-width: 37.5em) {

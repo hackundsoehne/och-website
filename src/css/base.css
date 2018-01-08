@@ -216,7 +216,7 @@ p strong,
 li strong,
 input[type="text"],
 a.link {
-    font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "Source Code Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .hero-content h3,
 .block-ticket .block-price .block-type {
@@ -317,7 +317,7 @@ section,
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
-    -o-border-radius: : 6px;
+    -o-border-radius: 6px;
 }
 .indent {
     text-indent: -999px;
@@ -429,7 +429,7 @@ input[type="submit"] textarea,
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
-    -o-border-radius: : 25px;
+    -o-border-radius: 25px;
 }
 a.link {
     position: relative;
