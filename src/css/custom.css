@@ -23,3 +23,35 @@
     -ms-transform: translateY(-70%);
     -o-transform: translateY(-70%);
 }
+
+.header-title {
+    font-size: 5rem;
+    padding-top: 2.8rem;
+}
+
+.header-logo {
+    float: right;
+}
+
+.footer-copyright {
+    text-align: left;
+}
+.footer-buttons {
+    text-align: right;
+}
+
+@media (max-width: 37.5em) {
+    .header-title {
+        font-size: 2rem;
+        padding-top: 0.80rem;
+    }
+    .header-logo {
+        float: left;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+    .footer-buttons {
+        text-align: center;
+    }
+}

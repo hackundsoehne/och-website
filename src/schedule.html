@@ -36,9 +36,18 @@
                     <div class="background-img" style="width: 60%; right: -600px">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3185.96 3950.14">
                             <defs>
+                                <linearGradient id="brainbow-blue" x1="50%" y1="0%" x2="50%" y2="100%" >
+                                    <stop offset="0%" stop-color="#0751AB">
+                                        <animate attributeName="stop-color" values="#0751AB; #0090BF; #0751AB" dur="3s" repeatCount="indefinite"></animate>
+                                    </stop>
+
+                                    <stop offset="100%" stop-color="#0090BF">
+                                        <animate attributeName="stop-color" values="#0090BF; #0751AB; #0090BF" dur="3s" repeatCount="indefinite"></animate>
+                                    </stop>
+                                </linearGradient>
                                 <style>.cls-1 {
                                     fill: none;
-                                    stroke: #0760ab;
+                                    stroke: url('#brainbow-blue');
                                     stroke-miterlimit: 10;
                                     stroke-width: 1.75px;
                                 }</style>
@@ -504,13 +513,13 @@
             <div class="container ">
                 <!--Row-->
                 <div class="row pt2 pl2 pr2">
-                    <div class="col-md-2" style="padding-right: 0">
-                        <a class="scroll logo fr" href="#wrapper">
-                            <img src="img/och-logo.png" width="114px"/>
+                    <div class="col-md-2 col-xs-3" style="padding-right: 0">
+                        <a class="scroll logo header-logo" href="#wrapper">
+                            <img src="img/och-logo.png"/>
                         </a>
                     </div>
-                    <div class="col-md-10 text-left">
-                        <p class="hf pt5 pb3" style="font-size: 5rem">OPENCODES Hackathon</p>
+                    <div class="col-md-10 col-xs-9 text-left">
+                        <p class="hf pb3 header-title">OPENCODES Hackathon</p>
                     </div>
                 </div>
                 <div class="row pb2 pl2 pr2">
@@ -715,11 +724,11 @@
             <!--Container-->
             <div class="container ">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5 footer-copyright pb3">
                         <p> &copy; 2018 all rights reserved - an event by Hack & Söhne</p>
                     </div>
                     <div class="col-md-2">
-                        <ul class="block-social pb5">
+                        <ul class="block-social tc pb3">
                             <li><a href="#"><i class="icon-facebook"></i></a></li>
                             <li><a href="#"><i class="icon-twitter"></i></a></li>
                             <li><a href="#"><i class="icon-youtube"></i></a></li>
@@ -728,7 +737,7 @@
                         </ul>
                     </div>
                     <div class="col-md-5">
-                        <ul class="block-legal tc">
+                        <ul class="block-legal footer-buttons pb3">
                             <li><a href="#">Privacy Policy</a>
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">About</a></li>
