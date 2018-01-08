@@ -17,11 +17,7 @@
 .content-section {
     position: relative;
     text-align: center;
-    transform: translateY(-70%);
-    -webkit-transform: translateY(-70%);
-    -moz-transform: translateY(-70%);
-    -ms-transform: translateY(-70%);
-    -o-transform: translateY(-70%);
+    top: 10rem;
 }
 
 .header-title {
@@ -106,4 +102,8 @@
     .hero-button-list {
         text-align: center;
     }
+}
+
+.wrapper {
+    background: None;
 }
