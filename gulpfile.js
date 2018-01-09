@@ -25,9 +25,15 @@ gulp.task('updateContent', () => {
         const doc = parse5.parse(fileContent);
 
         var body = []
+        var headers = ""
         var styledef = ""
 
         doc.childNodes[1].childNodes.forEach(function(element) {
+          if (element.tagName === "head") {
+            //search for title
+            headers = parse5.serialize(element)
+          }
+          //we need the style tag from body
           if (element.tagName === "body") {
             body = parse5.serialize(element);
             element.attrs.forEach(function (attr) {
@@ -42,7 +48,9 @@ gulp.task('updateContent', () => {
         gulp.src('src/template.html')
           .pipe(template(
             {content: body,
-             style : styledef}
+             style : styledef,
+             header : headers,
+           }
           ))
           .pipe(rename(file))
           .pipe(gulp.dest('dist/'))
