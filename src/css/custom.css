@@ -202,6 +202,12 @@ body {
     margin-right:-4px;
 }
 
+.col-center {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .block-tabs li {
     padding-left: 0;
 }
