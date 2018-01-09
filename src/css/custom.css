@@ -6,11 +6,15 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+body {
+    font-family: 'Source Code Pro', "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
 
 /* Nav bar buttons */
 
 .hero-button {
-    width: 120px !important;
+    width: 115px !important;
     background:  white;
     color:  black !important;
     text-align: center;
