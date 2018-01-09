@@ -41,7 +41,7 @@ gulp.task('updateEssentials', () => {
       }))
       .pipe(gulp.dest('dist/js'));
     gulp.src('src/img/**/*')
-      .pipe(imagemin())
+     // .pipe(imagemin())
       .pipe(gulp.dest('dist/img'));
 })
 
