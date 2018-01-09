@@ -12,6 +12,7 @@
   "homepage": "https://hackundsoehne.de",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
     "gulp-rename": "^1.2.2",
     "gulp-template": "^5.0.0",
     "parse5": "^3.0.3"
