@@ -18,6 +18,7 @@ gulp.task('updateEssentials', () => {
 })
 
 gulp.task('updateContent', () => {
+    gulp.src('src/static').pipe(gulp.dest('dist'))
     fs.readdir('src/elements/', (err, files) => {
       files.forEach(file => {
         var fileContent = fs.readFileSync('src/elements/'+file, "utf8");
