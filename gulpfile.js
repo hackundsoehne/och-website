@@ -3,7 +3,7 @@ const template = require('gulp-template');
 const rename = require('gulp-rename');
 const fs = require('fs')
 const cleanCSS = require('gulp-clean-css');
-
+const minify = require('gulp-minify');
 const parse5 = require('parse5');
 
 gulp.task('default', () => {
@@ -16,7 +16,15 @@ gulp.task('updateEssentials', () => {
       .pipe(cleanCSS())
       .pipe(gulp.dest('dist/css'));
     gulp.src('src/font/**/*').pipe(gulp.dest('dist/font'));
-    gulp.src('src/js/**/*').pipe(gulp.dest('dist/js'));
+    gulp.src('src/js/**/*')
+      .pipe(minify({
+        mangle : false,
+        noSource : true,
+        ext:{
+            min:'.js'
+        },
+      }))
+      .pipe(gulp.dest('dist/js'));
     gulp.src('src/img/**/*').pipe(gulp.dest('dist/img'));
 })
 
