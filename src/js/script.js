@@ -334,8 +334,8 @@ function initializeMap() {
       }
     ],
 
-    lat = 39.148352,
-    lng = -84.443999,
+    lat = 49.001179,
+    lng = 8.383557,
 
 
     customMap = new google.maps.StyledMapType(styles, {
@@ -344,7 +344,7 @@ function initializeMap() {
 
 
     mapOptions = {
-      zoom: 14,
+      zoom: 12,
       scrollwheel: false,
       disableDefaultUI: true,
       draggable: true,
