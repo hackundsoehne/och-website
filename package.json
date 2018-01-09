@@ -24,9 +24,10 @@
     "npm-run-all": "^4.1.2"
   },
   "scripts": {
-    "dev": "npm-run-all -p build start",
-    "start": "http-server ./dist -p 8080 -d False",
+    "dev": "npm-run-all -p build server",
+    "server": "http-server ./dist -p 8080 -d False",
+    "start": "npm run deploy && npm run server",
     "build": "gulp default",
-    "deploy": "gulp deploy && http-server ./dist -p 8080 -d False"
+    "deploy": "gulp deploy"
   }
 }
