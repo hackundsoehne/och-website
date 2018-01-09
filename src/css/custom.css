@@ -280,3 +280,10 @@ body {
     width: auto;
     height: auto;
 }
+
+.time {
+    font-weight: bold !important;
+}
+.topic {
+    font-weight: bold;
+}
