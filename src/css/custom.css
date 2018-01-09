@@ -201,3 +201,7 @@ body {
     /* inline-block space fix */
     margin-right:-4px;
 }
+
+.block-tabs li {
+    padding-left: 0;
+}
