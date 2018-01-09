@@ -26,6 +26,7 @@
   "scripts": {
     "dev": "npm-run-all -p build start",
     "start": "http-server ./dist -p 8080 -d False",
-    "build": "gulp default"
+    "build": "gulp default",
+    "deploy": "gulp deploy && http-server ./dist -p 8080 -d False"
   }
 }

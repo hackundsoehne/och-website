@@ -10,7 +10,21 @@ const imagemin = require('gulp-imagemin');
 gulp.task('default', () => {
     gulp.start('updateContent');
     gulp.start('updateEssentials');
+
+    var watcher = gulp.watch('src/**/*');
+
+    watcher.on('change', function(path, stats) {
+        gulp.start('updateContent');
+        gulp.start('updateEssentials');
+    });
+
 });
+
+gulp.task('deploy', () => {
+    gulp.start('updateContent');
+    gulp.start('updateEssentials');
+});
+
 
 gulp.task('updateEssentials', () => {
     gulp.src('src/css/**/*')
@@ -74,10 +88,3 @@ gulp.task('updateContent', () => {
       });
     })
 })
-
-var watcher = gulp.watch('src/**/*');
-
-watcher.on('change', function(path, stats) {
-    gulp.start('updateContent');
-    gulp.start('updateEssentials');
-});
