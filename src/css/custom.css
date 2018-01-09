@@ -121,6 +121,18 @@ body {
     background-color: #1a1919;
 }
 
+.about-block-left {
+    display:block;
+    width:40%;
+}
+
+.about-block-right {
+    display:block;
+    width: 40%;
+    float: right;
+    margin-left: 60%;
+}
+
 @media (max-width: 37.5em) {
     .header-title {
         font-size: 2rem;
