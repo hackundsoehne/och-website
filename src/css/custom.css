@@ -287,3 +287,7 @@ body {
 .topic {
     font-weight: bold;
 }
+
+* {
+    border-radius: 0 !important;
+}
