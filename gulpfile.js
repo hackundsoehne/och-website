@@ -49,12 +49,12 @@ gulp.task('updateContent', () => {
 
     gulp.src('src/static/*').pipe(gulp.dest('dist'))
 
-    fs.readdir('src/elements/', (err, files) => {
+    fs.readdir('src/', (err, files) => {
       files.forEach(file => {
 
-        if (file != "template.html") {
+        if (file != "template.html" && file.endsWith(".html")) {
 
-          var fileContent = fs.readFileSync('src/elements/'+file, "utf8");
+          var fileContent = fs.readFileSync('src/'+file, "utf8");
 
           const doc = parse5.parse(fileContent);
 
