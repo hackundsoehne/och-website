@@ -109,6 +109,10 @@ body {
     background-color: #1a1919 !important;
 }
 
+.col-dark {
+    color: #1a1919 !important;
+}
+
 .block-tab .block-detail:hover {
     background: #1a1919;
 }
@@ -210,4 +214,17 @@ body {
 
 .block-tabs li {
     padding-left: 0;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.sponsor-image {
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
