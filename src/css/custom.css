@@ -154,6 +154,18 @@ body {
     .footer-buttons {
         text-align: center;
     }
+
+    .about-block-left {
+        margin-top: 80px;
+        display:block;
+        width:100%;
+    }
+
+    .about-block-right {
+        margin-top: 80px;
+        display:block;
+        width: 100%;
+    }
 }
 
 @media (min-width: 37.56em) and (max-width: 62em) {
@@ -173,6 +185,16 @@ body {
     }
     .footer-buttons {
         text-align: center;
+    }
+    .about-block-left {
+        margin-top: 80px;
+        display:block;
+        width:100%;
+    }
+    .about-block-right {
+        margin-top: 80px;
+        display:block;
+        width: 100%;
     }
 }
 
@@ -199,6 +221,16 @@ body {
     }
     .hero-button-list {
         text-align: center;
+    }
+    .about-block-left {
+        margin-top: 80px;
+        display:block;
+        width:100%;
+    }
+    .about-block-right {
+        margin-top: 80px;
+        display:block;
+        width: 100%;
     }
 }
 
