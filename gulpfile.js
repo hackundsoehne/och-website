@@ -5,6 +5,7 @@ const fs = require('fs')
 const cleanCSS = require('gulp-clean-css');
 const minify = require('gulp-minify');
 const parse5 = require('parse5');
+const imagemin = require('gulp-imagemin');
 
 gulp.task('default', () => {
     gulp.start('updateContent');
@@ -25,7 +26,9 @@ gulp.task('updateEssentials', () => {
         },
       }))
       .pipe(gulp.dest('dist/js'));
-    gulp.src('src/img/**/*').pipe(gulp.dest('dist/img'));
+    gulp.src('src/img/**/*')
+      .pipe(imagemin())
+      .pipe(gulp.dest('dist/img'));
 })
 
 gulp.task('updateContent', () => {
