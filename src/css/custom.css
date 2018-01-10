@@ -301,21 +301,30 @@ body {
 .but {
     color: #ffffff;
     font-weight: bold;
+    text-align: center;
     background: #10C4EE !important;
-    background: -moz-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
+    /*background: -moz-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
     background: -webkit-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
-    background: linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
+    background: linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;*/
 }
 
 .gradient-text {
-    background: -webkit-linear-gradient(left, #6DC347 30%, #F78633 65%);
+    /*background: -webkit-linear-gradient(left, #6DC347 30%, #F78633 65%);
     background: -moz-linear-gradient(left, #6DC347 30%, #F78633 65%);
     background: linear-gradient(left, #6DC347 30%, #F78633 65%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
     color: #10C4EE
 }
 
 .hero-content p {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
+
+.overlay-dark {
+    background: rgba(0, 0, 0, .5);
+    background: -moz-linear-gradient(top, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .5) 32%, rgba(26, 25, 25, .5) 100%);
+    background: -webkit-linear-gradient(top, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .5) 32%, rgba(26, 25, 25, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .5) 32%, rgba(26, 25, 25, 0.5) 100%);
+}
+
