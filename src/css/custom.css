@@ -331,10 +331,14 @@ body {
     margin-bottom: 0;
 }
 
+.overlay-gradient-dark {
+    background: rgba(26, 25, 25, .5);
+    background: -moz-linear-gradient(top, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .2) 32%, rgba(26, 25, 25, .5) 100%);
+    background: -webkit-linear-gradient(top, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .2) 32%, rgba(26, 25, 25, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .2) 32%, rgba(26, 25, 25, 0.5) 100%);
+}
+
 .overlay-dark {
-    background: rgba(0, 0, 0, .5);
-    background: -moz-linear-gradient(top, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .5) 32%, rgba(26, 25, 25, .5) 100%);
-    background: -webkit-linear-gradient(top, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .5) 32%, rgba(26, 25, 25, 0.5) 100%);
-    background: linear-gradient(to bottom, rgba(26, 25, 25, .0) 0, rgba(26, 25, 25, .5) 32%, rgba(26, 25, 25, 0.5) 100%);
+    background: rgba(26, 25, 25, .5);
 }
 
