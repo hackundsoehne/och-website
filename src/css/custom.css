@@ -291,3 +291,25 @@ body {
 * {
     border-radius: 0 !important;
 }
+
+.but {
+    color: #ffffff;
+    font-weight: bold;
+    background: #10C4EE !important;
+    background: -moz-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
+    background: -webkit-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
+    background: linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(left, #6DC347 30%, #F78633 65%);
+    background: -moz-linear-gradient(left, #6DC347 30%, #F78633 65%);
+    background: linear-gradient(left, #6DC347 30%, #F78633 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #10C4EE
+}
+
+.hero-content p {
+    margin-bottom: 0px;
+}
