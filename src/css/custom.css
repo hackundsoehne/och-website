@@ -101,6 +101,10 @@ body {
     background-color: #1a1919;
 }
 
+.slogan {
+    padding-top: 70vh;
+}
+
 .bg-black  {
     background-color: #1a1919 !important;
 }
@@ -134,6 +138,12 @@ body {
     width: 40%;
     float: right;
     margin-left: 60%;
+}
+
+@media (max-width: 20em) {
+    .slogan {
+        padding-top: 60vh;
+    }
 }
 
 @media (max-width: 37.5em) {
