@@ -116,6 +116,9 @@ body {
 .block-tab .block-detail:hover {
     background: #1a1919;
 }
+.jury-tr {
+    text-align: right;
+}
 
 body {
     background-color: #1a1919;
@@ -165,6 +168,9 @@ body {
         margin-top: 80px;
         display:block;
         width: 100%;
+    }
+    .jury-tr {
+        text-align: left;
     }
 }
 
