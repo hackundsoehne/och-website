@@ -26,6 +26,10 @@ span.line {
     text-transform: uppercase;
 }
 
+.mobile-but {
+    top: -40px !important;
+}
+
 #home-button:hover {
     background: #F78633;
     color: white !important;
