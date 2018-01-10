@@ -23,11 +23,11 @@ body {
 }
 
 #home-button:hover {
-    background: #6DC347;
+    background: #F78633;
     color: white !important;
 }
 #about-button:hover {
-    background: #F78633;
+    background: #FF3524;
     color: white !important;
 }
 #visitor-button:hover {
@@ -35,15 +35,15 @@ body {
     color: #1a1919 !important;
 }
 #jury-button:hover {
-    background: #FFE655;
-    color: #1a1919 !important;
-}
-#categories-button:hover {
     background: #F55BAA;
     color: white !important;
 }
+#categories-button:hover {
+    background: #FFE655;
+    color: #1a1919 !important;
+}
 #schedule-button:hover {
-    background: #FF3524;
+    background: #6DC347;
     color: white !important;
 }
 #location-button:hover {
