@@ -335,8 +335,19 @@ p a:hover:after, span a:hover:after {
     background-color: white;
 }
 
+.premium {
+    height: 280px;
+    position: relative;
+}
+
+.basic {
+    height: 220px;
+    position: relative;
+}
+
 .sponsor-image {
     width: 80%;
+    max-height: 80%;
     position: absolute;
     top: 40%;
     left: 50%;
