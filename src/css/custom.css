@@ -67,6 +67,25 @@ span.line {
     color: white !important;
 }
 
+.text-green {
+    color: #6DC347;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: #10C4EE;
+}
+
+.text-orange {
+    color: #F78633;
+}
+
+
+
+
 
 .content-section {
     position: relative;
@@ -135,6 +154,14 @@ span.line {
 
 body {
     background-color: #1a1919;
+}
+
+a, a:active, a:focus, a:hover, a:visited {
+    color: #6DC347;
+}
+
+p a:hover:after, span a:hover:after {
+    background: #6DC347;
 }
 
 .about-block-left {
@@ -329,7 +356,7 @@ body {
 }
 
 .but {
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: bold;
     text-align: center;
     background: #10C4EE !important;
