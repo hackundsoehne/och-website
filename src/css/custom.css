@@ -83,10 +83,6 @@ span.line {
     color: #F78633;
 }
 
-
-
-
-
 .content-section {
     position: relative;
     text-align: center;
@@ -161,6 +157,10 @@ a, a:active, a:focus, a:hover, a:visited {
 }
 
 p a:hover:after, span a:hover:after {
+    background: #6DC347;
+}
+
+.but, a.link:after, p a:after, span a:after {
     background: #6DC347;
 }
 
