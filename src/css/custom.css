@@ -113,6 +113,10 @@ span.line {
     text-align: right;
 }
 
+.hero-padding {
+    padding-top: 32vw !important;
+}
+
 #nav-bar-logo {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -229,6 +233,9 @@ p a:hover:after, span a:hover:after {
     }
     .jury-tr {
         text-align: left;
+    }
+    .hero-padding {
+        padding-top: 32vw !important;
     }
 }
 
