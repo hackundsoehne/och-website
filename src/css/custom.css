@@ -113,6 +113,10 @@ span.line {
     text-align: right;
 }
 
+.hero-padding {
+    padding-top: 32vw !important;
+}
+
 #nav-bar-logo {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -230,6 +234,9 @@ p a:hover:after, span a:hover:after {
     .jury-tr {
         text-align: left;
     }
+    .hero-padding {
+        padding-top: 32vw !important;
+    }
 }
 
 @media (min-width: 37.56em) and (max-width: 62em) {
@@ -328,8 +335,19 @@ p a:hover:after, span a:hover:after {
     background-color: white;
 }
 
+.premium {
+    height: 280px;
+    position: relative;
+}
+
+.basic {
+    height: 220px;
+    position: relative;
+}
+
 .sponsor-image {
     width: 80%;
+    max-height: 80%;
     position: absolute;
     top: 40%;
     left: 50%;
