@@ -44,6 +44,19 @@ h3 {
     top: -40px !important;
 }
 
+.orange-link, .orange-link:active, .orange-link:focus, .orange-link:hover, .orange-link:visited {
+    color: #F78633;
+}
+
+p .orange-link:hover:after, span .orange-link:hover:after {
+    background: #F78633;
+}
+
+.but, .orange-link.link:after, p .orange-link:after, span .orange-link:after {
+    background: #F78633;
+}
+
+
 #home-button:hover {
     background-color: transparent;
     border: 1px solid white;
@@ -102,6 +115,8 @@ h3 {
     position: relative;
     text-align: center;
     top: 5rem;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
 }
 
 .faq-pt {
@@ -181,7 +196,6 @@ p a:hover:after, span a:hover:after {
 
 .but, a.link:after, p a:after, span a:after {
     background: #6DC347;
-}
 
 .but:hover {
     background: white !important;
@@ -218,6 +232,11 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     margin-left: 60%;
 }
 
+.contact-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 .no-line-height {
     line-height: normal !important;
 }
@@ -247,7 +266,6 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     .header-logo {
         float: left;
     }
-
     .faq-pt {
         padding-top: 30px;
     }
@@ -260,13 +278,11 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     .footer-buttons {
         text-align: center;
     }
-
     .about-block-left {
         margin-top: 80px;
         display:block;
         width:100%;
     }
-
     .about-block-right {
         margin-top: 80px;
         display:block;
@@ -277,6 +293,10 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     }
     .hero-padding {
         padding-top: 32vw !important;
+    }
+    .content-section {
+        padding-top: 2rem;
+        padding-bottom: 0;
     }
 }
 
@@ -307,6 +327,10 @@ li.active strong , p.active strong, .chooser li:hover strong  {
         margin-top: 80px;
         display:block;
         width: 100%;
+    }
+    .content-section {
+        padding-top: 5rem;
+        padding-bottom: 0;
     }
 }
 

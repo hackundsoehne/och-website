@@ -237,12 +237,6 @@ li strong {
 p strong {
     text-transform: uppercase;
 }
-p span {
-    display: block;
-    position: relative;
-    top: -4px;
-}
-p span,
 li span {
     font-size: 13px;
 }
