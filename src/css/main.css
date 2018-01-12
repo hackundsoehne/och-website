@@ -488,7 +488,7 @@ ul.block-topic li {
     -o-border-radius: 0 0 5px 5px;
 }
 .block-tabs li.active:before {
-    border-bottom: 6px solid #444444;
+    border-bottom: 6px solid white;
     border-left: 6px solid rgba(0, 0, 0, 0);
     border-right: 6px solid rgba(0, 0, 0, 0);
     content: "";
