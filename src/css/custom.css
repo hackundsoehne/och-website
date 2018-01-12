@@ -56,11 +56,11 @@ span.line {
     color: white !important;
 }
 #location-button:hover {
-    background: #10C4EE;
+    background: #F78633;
     color: #1a1919 !important;
 }
 #sponsor-button:hover {
-    background: #F78633;
+    background: #10C4EE;
     color: white !important;
 }
 #faq-button:hover {
