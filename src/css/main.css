@@ -446,10 +446,10 @@ ul.block-topic li {
 
 .block-tabs,
 .block-tab {
-    border: 1px solid #444444;
+    border: 1px solid white;
 }
 .block-tabs li {
-    border-bottom: 1px solid #444444;
+    border-bottom: 1px solid white;
     line-height: 60px;
     padding-left: 25px;
     cursor: pointer;
@@ -469,7 +469,8 @@ ul.block-topic li {
     border-bottom: 0;
 }
 .block-tabs li.active {
-    background: #444444;
+    background: white;
+    color: #1a1919 !important;
     border-bottom: 0;
 }
 .block-tabs li:first-child.active {
@@ -509,7 +510,8 @@ ul.block-topic li {
     display: block;
 }
 .block-tab li .block-date {
-    background: #444444;
+    background: white;
+    color: #1a1919 !important;
     line-height: 60px;
     padding-left: 25px;
     border-radius: 5px 5px 0 0;
@@ -519,7 +521,7 @@ ul.block-topic li {
     -o-border-radius: 5px 5px 0 0;
 }
 .block-tab .block-detail {
-    border-bottom: 1px solid #444444;
+    border-bottom: 1px solid white;
     padding: 25px;
     cursor: pointer;
     overflow: hidden;

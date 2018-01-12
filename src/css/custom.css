@@ -32,7 +32,8 @@ span.line {
 }
 
 #home-button:hover {
-    background: #F78633;
+    background-color: transparent;
+    border: 1px solid white;
     color: white !important;
 }
 #about-button:hover {
@@ -48,7 +49,7 @@ span.line {
     color: white !important;
 }
 #categories-button:hover {
-    background: #C6B621;
+    background: #FFE655;
     color: #1a1919 !important;
 }
 #schedule-button:hover {
@@ -57,7 +58,7 @@ span.line {
 }
 #location-button:hover {
     background: #F78633;
-    color: #1a1919 !important;
+    color: white !important;
 }
 #sponsor-button:hover {
     background: #10C4EE;
