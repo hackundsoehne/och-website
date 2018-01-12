@@ -1,8 +1,8 @@
 # Open Codes Hackathon Website
 
-Website at: https://opencodes.io
+Website at: https://dev.opencodes.io
 
-**Important:** master branch is building live. Be aware when pushing.
+**Important:** branch is building live. Be aware when pushing.
 
 To build:
 1. ```npm install```
