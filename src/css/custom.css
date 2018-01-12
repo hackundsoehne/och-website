@@ -378,7 +378,9 @@ p a:hover:after, span a:hover:after {
     color: #ffffff !important;
     font-weight: bold;
     text-align: center;
-    background: #10C4EE !important;
+    background: transparent !important;
+    border: 1px solid white;
+    font-size: 1.25rem !important;
     /*background: -moz-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
     background: -webkit-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
     background: linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;*/

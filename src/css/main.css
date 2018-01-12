@@ -567,7 +567,7 @@ ul.block-topic li {
 /* Countdown section*/
 
 .countdown {
-    font-size: 45px;
+    font-size: 72px;
     font-weight: 300;
 }
 /* End Countdown section*/
@@ -910,6 +910,7 @@ select.error {
 }
 .bottom-footer {
     font-size: 12px;
+    background-color: rgba(10.2%, 9.8%, 9.8%, 0.5);
 }
 .block-legal {
     text-align: right;
