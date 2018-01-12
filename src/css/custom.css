@@ -196,6 +196,7 @@ p a:hover:after, span a:hover:after {
 
 .but, a.link:after, p a:after, span a:after {
     background: #6DC347;
+}
 
 .but:hover {
     background: white !important;
@@ -210,6 +211,10 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     background: #fff;
     color: #1a1919 !important;
     border-bottom: 0
+}
+
+.overview a:hover span {
+    text-decoration: underline;
 }
 
 .block-tabs.no-line-height li {
