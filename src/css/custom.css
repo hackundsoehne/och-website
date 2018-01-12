@@ -44,16 +44,22 @@ h3 {
     top: -40px !important;
 }
 
-.orange-link, .orange-link:active, .orange-link:focus, .orange-link:hover, .orange-link:visited {
-    color: #F78633;
+.orange-link {
+    color: #F78633 !important;
+    text-decoration: underline !important;
+    text-decoration-color: #F78633 !important;
 }
 
-p .orange-link:hover:after, span .orange-link:hover:after {
-    background: #F78633;
+a, a:active, a:focus, a:hover, a:visited {
+    color: transparent;
 }
 
-.but, .orange-link.link:after, p .orange-link:after, span .orange-link:after {
-    background: #F78633;
+p a:hover:after, span a:hover:after {
+    background: transparent;
+}
+
+.but, a.link:after, p a:after, span a:after {
+    background: transparent;
 }
 
 
@@ -184,18 +190,6 @@ p .orange-link:hover:after, span .orange-link:hover:after {
 
 body {
     background-color: #1a1919;
-}
-
-a, a:active, a:focus, a:hover, a:visited {
-    color: #6DC347;
-}
-
-p a:hover:after, span a:hover:after {
-    background: #6DC347;
-}
-
-.but, a.link:after, p a:after, span a:after {
-    background: #6DC347;
 }
 
 .but:hover {
