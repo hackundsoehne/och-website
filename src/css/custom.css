@@ -14,6 +14,19 @@ span.line {
     display: inline-block;
 }
 
+h1 {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+h2 {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+h3 {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
 
 /* Nav bar buttons */
 
@@ -168,6 +181,11 @@ p a:hover:after, span a:hover:after {
 
 .but, a.link:after, p a:after, span a:after {
     background: #6DC347;
+}
+
+.but:hover {
+    background: white !important;
+    color: #1a1919 !important;
 }
 
 .about-block-left {
@@ -379,9 +397,9 @@ p a:hover:after, span a:hover:after {
     color: #ffffff !important;
     font-weight: bold;
     text-align: center;
-    background: transparent !important;
+    background: rgba(26, 25, 25, 1) !important;
     border: 1px solid white;
-    font-size: 1.25rem !important;
+    font-size: 32px !important;
     /*background: -moz-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
     background: -webkit-linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;
     background: linear-gradient(45deg, #6DC347 0, #F78633 100%) !important;*/
@@ -413,5 +431,10 @@ p a:hover:after, span a:hover:after {
 
 .overlay-dark {
     background: rgba(26, 25, 25, .5);
+}
+
+.countdown {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
 }
 
