@@ -122,11 +122,11 @@ span.line {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
 }
 
 .header {
-    background-color: #1a1919;
+    background-color: rgba(10.2%, 9.8%, 9.8%, 0.5)
 }
 
 .slogan {
