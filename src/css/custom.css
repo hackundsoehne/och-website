@@ -188,6 +188,24 @@ p a:hover:after, span a:hover:after {
     color: #1a1919 !important;
 }
 
+li.active strong , p.active strong, .chooser li:hover strong  {
+    color: #1a1919 !important;
+}
+
+.chooser li:hover {
+    background: #fff;
+    color: #1a1919 !important;
+    border-bottom: 0
+}
+
+.block-tabs.no-line-height li {
+    line-height: normal !important;
+}
+
+.block-tabs li.active:before {
+    border: none !important;
+}
+
 .about-block-left {
     display:block;
     width:40%;
@@ -198,6 +216,10 @@ p a:hover:after, span a:hover:after {
     width: 40%;
     float: right;
     margin-left: 60%;
+}
+
+.no-line-height {
+    line-height: normal !important;
 }
 
 @media (max-width: 20em) {
