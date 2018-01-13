@@ -61,6 +61,7 @@ a, a:active, a:focus, a:hover, a:visited {
 }
 
 p a:hover:after, span a:hover:after {
+    color: #ffffff;
     background: transparent;
 }
 
