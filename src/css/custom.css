@@ -51,10 +51,11 @@ h3 {
 }
 
 a, a:active, a:focus, a:hover, a:visited {
-    color: transparent;
+    color: #ffffff;
 }
 
 p a:hover:after, span a:hover:after {
+    color: #ffffff;
     background: transparent;
 }
 
