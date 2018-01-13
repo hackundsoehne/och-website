@@ -50,6 +50,12 @@ h3 {
     text-decoration-color: #F78633 !important;
 }
 
+.white-link {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+    text-decoration-color: #ffffff !important;
+}
+
 a, a:active, a:focus, a:hover, a:visited {
     color: transparent;
 }
