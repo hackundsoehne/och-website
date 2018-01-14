@@ -417,9 +417,30 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     background-color: white;
 }
 
+.background-white img {
+    horiz-align: center;
+    display: block;
+    margin: auto !important;
+}
+
+@media (min-width: 768px) {
+    .platin {
+        width: 30%;
+    }
+}
+
+.platin-img {
+    left: 10px;
+    right: 10px;
+}
 .premium {
     height: 280px;
     position: relative;
+}
+
+.premium img {
+    display:block;
+    margin:auto;
 }
 
 .basic {
@@ -431,9 +452,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     width: 80%;
     max-height: 80%;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
-    margin-right: -50%;
+    margin: auto;
     transform: translate(-50%, -50%)
 }
 
