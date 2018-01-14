@@ -1,6 +1,6 @@
 # Open Codes Hackathon Website
 
-Website at: https://dev.opencodes.io
+Website at: https://opencodes.io
 
 **Important:** branch is building live. Be aware when pushing.
 
