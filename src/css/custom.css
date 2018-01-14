@@ -33,6 +33,7 @@ h3 {
 .hero-button {
     width: 115px !important;
     background:  white;
+    border: 1px solid white !important;
     color:  black !important;
     text-align: center;
     font-family: 'Nova Mono', cursive;
@@ -69,42 +70,49 @@ p a:hover:after, span a:hover:after {
     background: transparent;
 }
 
-
 #home-button:hover {
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid white !important;
     color: white !important;
 }
 #about-button:hover {
     background: #FF3524;
+    border: 1px solid #FF3524 !important;
     color: white !important;
 }
 #visitor-button:hover {
     background: #10C4EE;
-    color: #1a1919 !important;
+    border: 1px solid #10C4EE !important;
+    color: white !important;
 }
 #jury-button:hover {
     background: #F55BAA;
+    border: 1px solid #F55BAA !important;
     color: white !important;
 }
 #categories-button:hover {
     background: #FFE655;
-    color: #1a1919 !important;
+    border: 1px solid #FFE655 !important;
+    color: white !important;
 }
 #schedule-button:hover {
     background: #6DC347;
+    border: 1px solid #6DC347 !important;
     color: white !important;
 }
 #location-button:hover {
     background: #F78633;
+    border: 1px solid #F78633 !important;
     color: white !important;
 }
 #sponsor-button:hover {
     background: #10C4EE;
+    border: 1px solid #10C4EE !important;
     color: white !important;
 }
 #faq-button:hover {
     background: #F55BAA;
+    border: 1px solid #F55BAA !important;
     color: white !important;
 }
 
