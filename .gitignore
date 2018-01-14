@@ -59,11 +59,9 @@ typings/
 # dotenv environment variables file
 .env
 
-# Other
-package-lock.json
 
 
-# Created by https://www.gitignore.io/api/webstorm,webstorm+all,webstorm+iml
+# Created by https://www.gitignore.io/api/webstorm,webstorm+iml,webstorm+all
 
 ### WebStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
@@ -204,5 +202,8 @@ modules.xml
 .idea/misc.xml
 *.ipr
 
-# End of https://www.gitignore.io/api/webstorm,webstorm+all,webstorm+iml
-
+# End of https://www.gitignore.io/api/webstorm,webstorm+iml,webstorm+all
+package-lock.json
+.DS_Store
+dist
+>>>>>>> bccfcd684ce939caf086a32f974cdf342c49ea71
