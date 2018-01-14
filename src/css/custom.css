@@ -70,47 +70,47 @@ p a:hover:after, span a:hover:after {
     background: white;
 }
 
-#home-button:hover {
+#home-button:hover, #home-button.index-selected {
     background-color: transparent;
     border: 1px solid white !important;
     color: white !important;
 }
-#about-button:hover {
+#about-button:hover, #about-button.about-selected {
     background: #FF3524;
     border: 1px solid #FF3524 !important;
     color: white !important;
 }
-#visitor-button:hover {
+#visitor-button:hover, #visitor-button.visitors-selected {
     background: #10C4EE;
     border: 1px solid #10C4EE !important;
     color: white !important;
 }
-#jury-button:hover {
+#jury-button:hover, #jury-button.jury-selected {
     background: #F55BAA;
     border: 1px solid #F55BAA !important;
     color: white !important;
 }
-#categories-button:hover {
+#categories-button:hover, #categories-button.categories-selected {
     background: #FFE655;
     border: 1px solid #FFE655 !important;
     color: white !important;
 }
-#schedule-button:hover {
+#schedule-button:hover, #schedule-button.schedule-selected {
     background: #6DC347;
     border: 1px solid #6DC347 !important;
     color: white !important;
 }
-#location-button:hover {
+#location-button:hover, #location-button.location-selected {
     background: #F78633;
     border: 1px solid #F78633 !important;
     color: white !important;
 }
-#sponsor-button:hover {
+#sponsor-button:hover, #sponsor-button.sponsors-selected {
     background: #10C4EE;
     border: 1px solid #10C4EE !important;
     color: white !important;
 }
-#faq-button:hover {
+#faq-button:hover, #faq-button.faq-selected {
     background: #F55BAA;
     border: 1px solid #F55BAA !important;
     color: white !important;

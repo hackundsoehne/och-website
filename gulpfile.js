@@ -67,6 +67,7 @@ gulp.task('updateContent', () => {
           var body = []
           var headers = ""
           var styledef = ""
+          var selected_side = file.slice(0, -(".html".length))+"-selected"
 
           doc.childNodes[1].childNodes.forEach(function(element) {
             if (element.tagName === "head") {
@@ -90,6 +91,7 @@ gulp.task('updateContent', () => {
               {content: body,
                style : styledef,
                header : headers,
+               active_class : selected_side
              }
             ))
             .pipe(rename(file))
