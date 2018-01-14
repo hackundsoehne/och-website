@@ -67,7 +67,7 @@ p a:hover:after, span a:hover:after {
 }
 
 .but, a.link:after, p a:after, span a:after {
-    background: transparent;
+    background: white;
 }
 
 #home-button:hover {
@@ -132,6 +132,9 @@ p a:hover:after, span a:hover:after {
     color: #F78633;
 }
 
+.text-pink {
+   color: #F55BAA;
+}
 .content-section {
     position: relative;
     text-align: center;

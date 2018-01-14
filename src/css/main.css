@@ -341,7 +341,7 @@ h1.large {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     left: 0;
-    top: 50%;
+    top: 10%;
 }
 .block-info-1 p {
     margin-left: 60px;
@@ -774,6 +774,7 @@ select.error {
 /* FAQ section*/
 
 .block-faq h4 {
+    color: #F55BAA;
     font-size: 16px;
     font-weight: 700;
     text-transform: none;
