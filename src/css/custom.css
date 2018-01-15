@@ -448,14 +448,30 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     position: relative;
 }
 
+.friends {
+    height: 200px;
+    position: relative;
+}
+
+.sponsor-row {
+    background: white !important;
+}
+
+
 .sponsor-image {
-    width: 80%;
+    max-width: 80%;
     max-height: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: auto;
+    /*margin: auto;*/
     transform: translate(-50%, -50%)
+}
+
+.sponsor-image{
+    display: block;
+    width: auto;
+    height: auto;
 }
 
 .img-ratio {
