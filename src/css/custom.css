@@ -258,14 +258,14 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 
 .about-block-left {
     display:block;
-    width:40%;
+    width:60%;
 }
 
 .about-block-right {
     display:block;
-    width: 40%;
+    width: 60%;
     float: right;
-    margin-left: 60%;
+    margin-left: 40%;
 }
 
 .contact-section {
