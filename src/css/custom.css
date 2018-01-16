@@ -27,6 +27,9 @@ h3 {
     margin-top: 0px !important;
 }
 
+.optional_header {
+    display: none;
+}
 
 /* Nav bar buttons */
 
@@ -276,6 +279,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (max-width: 37.5em) {
+    .optional_header {
+       display: block;
+    }
     .header-title {
         font-size: 2rem;
         padding-top: 0.35rem;
@@ -318,6 +324,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (min-width: 37.56em) and (max-width: 62em) {
+    .optional_header {
+       display: block;
+    }
     .header-title {
         line-height: 85%;
         font-size: 3.5rem;
@@ -352,6 +361,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (min-width: 62.1em) and (max-width: 79.93em) {
+    .optional_header {
+       display: block;
+    }
     .header-title {
         line-height: 85%;
         font-size: 4rem;
