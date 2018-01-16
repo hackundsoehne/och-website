@@ -348,6 +348,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (min-width: 37.56em) and (max-width: 62em) {
+    .header {
+        background-color: rgba(10.2%, 9.8%, 9.8%, 0.8)
+    }
     .header-title {
         line-height: 85%;
         font-size: 3.5rem;
