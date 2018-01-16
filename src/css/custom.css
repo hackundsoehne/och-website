@@ -10,6 +10,25 @@ body {
     font-family: 'Source Code Pro', "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
+.index-bg {
+    background: #1a1919 url('/img/brainbow.svg');
+    background-repeat: no-repeat;
+    background-size: 110vh;
+    background-attachment: fixed;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    .index-bg {
+        background-position: top;
+    }
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+    .index-bg {
+        background-position: center;
+    }
+}
+
 span.line {
     display: inline-block;
 }
@@ -276,6 +295,11 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (max-width: 37.5em) {
+    .index-bg {
+        background-position-y: 80px;
+        background-position-x: -80vh;
+        background-size: 150vh;
+    }
     .header-title {
         font-size: 2rem;
         padding-top: 0.35rem;
