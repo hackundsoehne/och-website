@@ -77,16 +77,16 @@ h3 {
 }
 
 a, a:active, a:focus, a:hover, a:visited {
-    color: #ffffff;
+    color: transparent;
 }
 
 p a:hover:after, span a:hover:after {
-    color: #ffffff;
+    color: transparent;
     background: transparent;
 }
 
 .but, a.link:after, p a:after, span a:after {
-    background: white;
+    background: transparent;
 }
 
 #home-button:hover, #home-button.index-selected {
