@@ -282,6 +282,10 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 .no-line-height {
     line-height: normal !important;
 }
+.about-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 @media (max-width: 20em) {
     .slogan {
@@ -344,6 +348,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     .content-section {
         padding-top: 2rem;
         padding-bottom: 0;
+    }
+    .about-padding {
+        padding: 0;
     }
 }
 
