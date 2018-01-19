@@ -46,11 +46,15 @@ h3 {
     margin-top: 0px !important;
 }
 
+.optional_header {
+    display: none;
+}
 
 /* Nav bar buttons */
 
 .hero-button {
-    width: 115px !important;
+    /*width: 115px !important;*/
+    width: 100%;
     background:  white;
     border: 1px solid white !important;
     color:  black !important;
@@ -58,6 +62,23 @@ h3 {
     font-family: 'Nova Mono', cursive;
     font-weight: normal;
     text-transform: uppercase;
+}
+
+.hero-button-list {
+    display: table;
+    table-layout: fixed; /* the magic dust that ensure equal width */
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.main-nav li {
+    display: table-cell;
+    max-width: 150px;
+    min-width: 100px;
+    border-left: 1px solid #000 !important;
+    border-right: 1px solid #000 !important;
 }
 
 .mobile-but {
@@ -68,6 +89,12 @@ h3 {
     color: #F78633 !important;
     text-decoration: underline !important;
     text-decoration-color: #F78633 !important;
+}
+
+.pink-link {
+    color: #F55BAA !important;
+    text-decoration: underline !important;
+    text-decoration-color: #F55BAA !important;
 }
 
 .white-link {
@@ -91,7 +118,6 @@ p a:hover:after, span a:hover:after {
 
 #home-button:hover, #home-button.index-selected {
     background-color: transparent;
-    box-shadow: 0 0 0 1px white !important;
     color: white !important;
 }
 #about-button:hover, #about-button.about-selected {
@@ -277,6 +303,17 @@ li.active strong , p.active strong, .chooser li:hover strong  {
     line-height: normal !important;
 }
 
+@media only screen and (max-width: 1060px) {
+    .main-nav ol {
+        display: none;
+        text-align: left;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+}
+
 @media (max-width: 20em) {
     .slogan {
         margin-top: 40vh;
@@ -299,6 +336,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
         background-position-y: 80px;
         background-position-x: -80vh;
         background-size: 150vh;
+    }
+    .optional_header {
+       display: block;
     }
     .header-title {
         font-size: 2rem;
@@ -342,6 +382,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (min-width: 37.56em) and (max-width: 62em) {
+    .optional_header {
+       display: block;
+    }
     .header-title {
         line-height: 85%;
         font-size: 3.5rem;
@@ -373,9 +416,15 @@ li.active strong , p.active strong, .chooser li:hover strong  {
         padding-top: 5rem;
         padding-bottom: 0;
     }
+    .mobile-but {
+        top: -70px !important
+    }
 }
 
 @media (min-width: 62.1em) and (max-width: 79.93em) {
+    .optional_header {
+       display: block;
+    }
     .header-title {
         line-height: 85%;
         font-size: 4rem;
@@ -394,7 +443,7 @@ li.active strong , p.active strong, .chooser li:hover strong  {
         text-align: center;
     }
     .hero-button {
-        width: 95px !important;
+        /*width: 95px !important;*/
     }
     .hero-button-list {
         text-align: center;
@@ -408,6 +457,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
         margin-top: 80px;
         display:block;
         width: 100%;
+    }
+    .mobile-but {
+        top: -70px !important
     }
 }
 
