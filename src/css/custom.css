@@ -416,6 +416,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
         padding-top: 5rem;
         padding-bottom: 0;
     }
+    .mobile-but {
+        top: -70px !important
+    }
 }
 
 @media (min-width: 62.1em) and (max-width: 79.93em) {
@@ -454,6 +457,9 @@ li.active strong , p.active strong, .chooser li:hover strong  {
         margin-top: 80px;
         display:block;
         width: 100%;
+    }
+    .mobile-but {
+        top: -70px !important
     }
 }
 
