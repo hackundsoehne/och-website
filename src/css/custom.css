@@ -70,6 +70,12 @@ h3 {
     text-decoration-color: #F78633 !important;
 }
 
+.pink-link {
+    color: #F55BAA !important;
+    text-decoration: underline !important;
+    text-decoration-color: #F55BAA !important;
+}
+
 .white-link {
     color: #ffffff !important;
     text-decoration: underline !important;
