@@ -10,6 +10,25 @@ body {
     font-family: 'Source Code Pro', "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
+.index-bg {
+    background: #1a1919 url('/img/brainbow.svg');
+    background-repeat: no-repeat;
+    background-size: 110vh;
+    background-attachment: fixed;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    .index-bg {
+        background-position: top;
+    }
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+    .index-bg {
+        background-position: center;
+    }
+}
+
 span.line {
     display: inline-block;
 }
@@ -27,9 +46,6 @@ h3 {
     margin-top: 0px !important;
 }
 
-.optional_header {
-    display: none;
-}
 
 /* Nav bar buttons */
 
@@ -61,16 +77,16 @@ h3 {
 }
 
 a, a:active, a:focus, a:hover, a:visited {
-    color: #ffffff;
+    color: transparent;
 }
 
 p a:hover:after, span a:hover:after {
-    color: #ffffff;
+    color: transparent;
     background: transparent;
 }
 
 .but, a.link:after, p a:after, span a:after {
-    background: white;
+    background: transparent;
 }
 
 #home-button:hover, #home-button.index-selected {
@@ -242,14 +258,14 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 
 .about-block-left {
     display:block;
-    width:40%;
+    width:60%;
 }
 
 .about-block-right {
     display:block;
-    width: 40%;
+    width: 60%;
     float: right;
-    margin-left: 60%;
+    margin-left: 40%;
 }
 
 .contact-section {
@@ -279,8 +295,10 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (max-width: 37.5em) {
-    .optional_header {
-       display: block;
+    .index-bg {
+        background-position-y: 80px;
+        background-position-x: -80vh;
+        background-size: 150vh;
     }
     .header-title {
         font-size: 2rem;
@@ -324,9 +342,6 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (min-width: 37.56em) and (max-width: 62em) {
-    .optional_header {
-       display: block;
-    }
     .header-title {
         line-height: 85%;
         font-size: 3.5rem;
@@ -361,9 +376,6 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 }
 
 @media (min-width: 62.1em) and (max-width: 79.93em) {
-    .optional_header {
-       display: block;
-    }
     .header-title {
         line-height: 85%;
         font-size: 4rem;

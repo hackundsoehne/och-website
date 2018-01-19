@@ -67,6 +67,7 @@ gulp.task('updateContent', () => {
           var body = []
           var headers = ""
           var styledef = ""
+          var bodyclass = ""
           var selected_side = file.slice(0, -(".html".length))+"-selected"
 
           doc.childNodes[1].childNodes.forEach(function(element) {
@@ -82,6 +83,11 @@ gulp.task('updateContent', () => {
                   styledef = attr.value
                 }
               });
+                element.attrs.forEach(function (attr) {
+                    if (attr.name === "class") {
+                        bodyclass = attr.value
+                    }
+                });
             }
           })
 
@@ -91,7 +97,8 @@ gulp.task('updateContent', () => {
               {content: body,
                style : styledef,
                header : headers,
-               active_class : selected_side
+               active_class : selected_side,
+                  body_class : bodyclass
              }
             ))
             .pipe(rename(file))
