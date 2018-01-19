@@ -26,6 +26,11 @@
   });
 
 
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  })
+
+
   // Scroll to
 
   $('a.scroll').smoothScroll({
