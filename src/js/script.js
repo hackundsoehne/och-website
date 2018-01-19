@@ -64,7 +64,7 @@
   // Mobile menu
 
   var mobileBtn = $('.mobile-but');
-  var nav = $('.main-nav ul');
+  var nav = $('.main-nav ol');
   var navHeight = nav.height();
 
   $(mobileBtn).on("click", function () {
