@@ -77,16 +77,16 @@ h3 {
 }
 
 a, a:active, a:focus, a:hover, a:visited {
-    color: #ffffff;
+    color: transparent;
 }
 
 p a:hover:after, span a:hover:after {
-    color: #ffffff;
+    color: transparent;
     background: transparent;
 }
 
 .but, a.link:after, p a:after, span a:after {
-    background: white;
+    background: transparent;
 }
 
 #home-button:hover, #home-button.index-selected {
@@ -258,14 +258,14 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 
 .about-block-left {
     display:block;
-    width:40%;
+    width:60%;
 }
 
 .about-block-right {
     display:block;
-    width: 40%;
+    width: 60%;
     float: right;
-    margin-left: 60%;
+    margin-left: 40%;
 }
 
 .contact-section {
