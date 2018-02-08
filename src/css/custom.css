@@ -64,6 +64,17 @@ h3 {
     text-transform: uppercase;
 }
 
+.centering {
+    z-index: 3;
+    bottom: 30px;
+    left: 5%;
+    right: 5%;
+    position: absolute;
+}
+
+.centering p {
+}
+
 .hero-button-list {
     display: table;
     table-layout: fixed; /* the magic dust that ensure equal width */
