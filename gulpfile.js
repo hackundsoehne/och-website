@@ -29,6 +29,7 @@ gulp.task('updateEssentialsNOMINIFY', () => {
    gulp.src('src/css/**/*').pipe(gulp.dest('dist/css'));
     gulp.src('src/font/**/*').pipe(gulp.dest('dist/font'));
     gulp.src('src/js/**/*').pipe(gulp.dest('dist/js'));
+    gulp.src('src/assets/**/*').pipe(gulp.dest('dist/assets'));
     gulp.src('src/img/**/*').pipe(gulp.dest('dist/img'));
 })
 
