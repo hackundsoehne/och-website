@@ -626,9 +626,3 @@ li.active strong , p.active strong, .chooser li:hover strong  {
 .overlay-dark {
     background: rgba(26, 25, 25, .5);
 }
-
-.countdown {
-    font-size: 2rem !important;
-    font-weight: 500 !important;
-}
-
